@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* .page-container {
+    min-height: 100%;
+    padding-bottom: 200px;
+}
+.upper-section {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    position: relative;
+    z-index: 0;
+} */
+
+.phone-image {
+    left: 165px;
+    top: 152px;
+    bottom: auto;
+    background-image: url("../assets/contact/desktop/image-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 635px;
+    height: 720px;
+    z-index: 1;
+}

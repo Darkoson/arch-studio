@@ -32,6 +32,8 @@
 
 /*Footer*/
 footer {
+    position: absolute;
+    /* bottom: 0; */
     display: flex;
 }
 .footer-logo {
@@ -39,8 +41,8 @@ footer {
     width: 200px;
     height: 200px;
     left: 165px;
-    /*top: 3491px;*/
-    bottom: 0px;
+    top: 3491px;
+    /* bottom: 0px; */
     background: #1B1D23;
     display: flex;
     justify-content: center;
@@ -58,8 +60,8 @@ footer {
     width: 684px;
     height: 200px;
     left: 365px;
-    /*top: 3491px;*/
-    bottom: 0px;
+    top: 3491px;
+    /* bottom: 0px; */
     background: #EEEFF4;
     display: flex;
     align-items: center;
@@ -84,7 +86,7 @@ footer {
     width: 252px;
     height: 72px;
     left: 923px;
-    /*top: 3555px;*/
+    top: 3555px;
     bottom: 60px;
     background: #1B1D23;
     font-family: 'Spartan';
