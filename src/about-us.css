@@ -1,0 +1,98 @@
+*{
+    font-family: 'Spartan', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero-section{
+    margin-top: 152px;
+    width: 100%;
+    height: 720px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 160px;
+}
+.hero-image-section{
+    width: 960px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+}
+.hero-image{
+    position: absolute;
+    width: 635px;
+    height: 720px;
+    background-color: #110f0f73;
+    background-image: url(../assets/about/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.hero-section-about{
+    position: absolute;
+    width: 652px;
+    height: 200px;
+    left: 623px;
+    top: 269px;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 200px;
+    text-align: right;
+    letter-spacing: -5px;
+    color: #EEEFF4;
+    z-index: 50;
+}
+.hero-section-about h1{
+    padding-top: 30px;
+}
+.hero-rep-wrap-text{
+    position: absolute;
+    width: 700px;
+    height: 503px;
+    top: 369px;
+    background: #FFFFFF;
+    margin-left: 647px;
+    
+}
+.hero-rep-wrap-text hr{
+    margin-left: 18%;
+    margin-top: 20%;
+    width: 65px;
+    height: 1px;
+    background: #C8CCD8;
+}
+.hero-rep-wrap-text-top{
+    position: absolute;
+    height: 138px;
+    width: 446px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 138px/2 - 27.5px);
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 250%;
+    line-height: 150%;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    text-align: center;
+    margin: 11.5% auto;
+}
+.hero-rep-wrap-text-bottom{
+    position: absolute;
+    height: 100px;
+    width: 446px;
+    left: 0.22%;
+    right: 0%;
+    top: calc(50% - 100px/2 + 121.5px);
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #60636D;
+    margin: 11.5% auto;
+}
