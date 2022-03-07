@@ -8,7 +8,6 @@
     margin-top: 152px;
     width: 100%;
     height: 720px;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     margin-bottom: 160px;
@@ -23,7 +22,7 @@
     position: absolute;
     width: 635px;
     height: 720px;
-    background-color: #110f0f73;
+    background-color: #25212173;
     background-image: url(../assets/about/desktop/image-hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,7 +52,7 @@
     width: 700px;
     height: 503px;
     top: 369px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     margin-left: 647px;
     
 }
@@ -65,12 +64,8 @@
     background: #C8CCD8;
 }
 .hero-rep-wrap-text-top{
-    position: absolute;
     height: 138px;
     width: 446px;
-    left: 0%;
-    right: 0%;
-    top: calc(50% - 138px/2 - 27.5px);
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
@@ -95,4 +90,63 @@
     line-height: 25px;
     color: #60636D;
     margin: 11.5% auto;
+}
+.heritage-section{
+    width: 77vw;
+    height: 87vh;
+    margin-left: 12.4%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heritage-text{
+    width: 446px;
+    height: 87vh;
+    /* border: 1px solid red; */
+}
+.heritage-text hr{
+    width: 65px;
+    height: 1px;
+    background: #C8CCD8;
+}
+.heritage-text-top{
+    height: 21vh;
+    width: 30vw;
+    font-size: 250%;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    /* border: 1px solid purple; */
+    margin-top: 70px;
+    margin-bottom: 56px;
+}
+.heritage-text-bottom{
+    height: 46vh;
+    width: 32.5vw;
+    /* border: 1px solid greenyellow; */
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9375em;
+    line-height: 25px;
+    color: #60636D;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heritage-image{
+    width: 38vw;
+    height: 87vh;
+    /* border: 1px solid black; */
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/image-heritage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
 }
