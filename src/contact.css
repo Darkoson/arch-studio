@@ -252,7 +252,12 @@
     top: 58%;
     background: #1B1D23;
     cursor: pointer;
+    border: none;
 }
-/* .footer-logo { 
-    top: 2200px;
-} */
+.footer-logo, .footer-nav { 
+    top: 2600px;
+}
+
+.button-link {
+    top: 2664px;
+}
