@@ -219,7 +219,7 @@
     font-family: Spartan;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 25px;
     color: #1B1D23;
     margin-top: 2em;
@@ -231,11 +231,11 @@
     font-family: Spartan;
     font-style: normal;
     font-weight: 500;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 25px;
     color: #1B1D23;
     mix-blend-mode: normal;
-    opacity: 0.75;
+    opacity: 0.9;
 }
 .leaders-bottom-images{
     width: 48vw;
