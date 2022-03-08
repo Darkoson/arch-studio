@@ -1,0 +1,288 @@
+/* this page is divided into three sections namely
+01 - Hero section 
+02 - heritage section
+03 - leaders section
+*/
+
+/* general styling that is applied to the about page */
+*{
+    font-family: 'Spartan', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.about-us-banner{
+    position: absolute;
+    top: 165px;
+    left: -100px;
+    height: 4vh;
+    width: 26vw;
+    transform: rotate(90deg);
+}
+.about-us-banner p{
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #C8CCD8;
+    font-size: 14px;
+    padding-left: 151px;
+    padding-top: 4px;
+    font-family: Spartan;
+}
+.about-us-banner hr{
+    position: absolute;
+    top: 10px;
+    height: 1px;
+    width: 7rem;
+}
+.hero-section{
+    margin-top: 9.5em;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10em;
+}
+.hero-image-section{
+    width: 70vw;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+.hero-image{
+    position: absolute;
+    width: 47vw;
+    height: 110vh;
+    background-color: #25212173;
+    background-image: url(../assets/about/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.hero-section-about{
+    position: absolute;
+    width: 48vw;
+    height: 30vh;
+    left: 44%;
+    top: 38%;
+    z-index: 50;
+}
+.hero-section-about h1{
+    padding-top: 0.18em;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12rem;
+    line-height: 1em;
+    text-align: right;
+    letter-spacing: -5px;
+    color: #EEEFF4;
+}
+.hero-rep-wrap-text{
+    position: absolute;
+    width: 51vw;
+    height: 79vh;
+    top: 57%;
+    background-color: #FFFFFF;
+    margin-left: 40.7rem;
+}
+.hero-rep-wrap-text hr{
+    margin-left: 18%;
+    margin-top: 20%;
+    width: 4rem;
+    height: 1px;
+    background: #C8CCD8;
+}
+.hero-rep-wrap-text-top{
+    height: 21vh;
+    width: 33vw;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 250%;
+    line-height: 150%;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    text-align: center;
+    margin: 11.5% auto;
+}
+.hero-rep-wrap-text-top h2{
+    padding-right: 0.7em;
+}
+.hero-rep-wrap-text-bottom{
+    position: absolute;
+    height: 15vh;
+    width: 33vw;
+    left: 0.22%;
+    right: 0%;
+    top: calc(50% - 100px/2 + 121.5px);
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #60636D;
+    margin: 11.5% auto;
+}
+.heritage-section{
+    width: 77vw;
+    height: 87vh;
+    margin-left: 12.4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10em;
+}
+.heritage-text{
+    width: 33vw;
+    height: 87vh;
+}
+.heritage-text hr{
+    width: 4rem;
+    height: 1px;
+    background: #C8CCD8;
+}
+.heritage-text-top{
+    height: 21vh;
+    width: 30vw;
+    font-size: 250%;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.6rem;
+    line-height: 150%;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    margin-top: 4rem;
+    margin-bottom: 4.2rem;
+}
+.heritage-text-bottom{
+    height: 46vh;
+    width: 32.5vw;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9375em;
+    line-height: 25px;
+    color: #60636D;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.heritage-image{
+    width: 40vw;
+    height: 87vh;
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/image-heritage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.leaders-section{
+    width: 77vw;
+    height: 135vh;
+    margin-left: 12.4%;
+    margin-bottom: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leaders-title{
+    height: 21vh;
+    width: 25vw;
+    font-size: 250%;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.6rem;
+    line-height: 150%;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    
+}
+.leaders-image{
+    width: 52vw;
+    height: 135vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.leaders-top-images{
+    width: 52vw;
+    height: 64vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leaders-text-image-wrapper{
+    height: 64vh;
+    width: 25vw;
+}
+.leaders-jake-image{
+    height: 48vh;
+    width: 25vw;
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/avatar-jake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.leaders-Smith-image{
+    height: 48vh;
+    width: 25vw;
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/avatar-thompson.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.leaders-text-top{
+    height: 5vh;
+    width: 25vw;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 25px;
+    color: #1B1D23;
+    margin-top: 2em;
+}
+.leaders-text-bottom{
+    height: 5vh;
+    width: 25vw;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 25px;
+    color: #1B1D23;
+    mix-blend-mode: normal;
+    opacity: 0.98;
+}
+.leaders-bottom-images{
+    width: 52vw;
+    height: 64vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leaders-Jackson-image{
+    height: 48vh;
+    width: 25vw;
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/avatar-jackson.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.leaders-Maria-image{
+    height: 48vh;
+    width: 25vw;
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/avatar-maria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
