@@ -237,7 +237,7 @@
     
 }
 
-.welcome_1 h2{
+.welcome_1 h1{
     font-family: Spartan, sans-serif;
     font-weight: bold;
     font-size: 200px;
@@ -251,6 +251,34 @@
     top: 890px;
 }
 
+.welcome_note h3{
+    position: absolute;
+    height: 112px;
+    width: 446px;
+    right: 640px;
+    left: 354px;
+    top: 1200px;
+    font-family: Spartan, sans-serif;
+    font-size: 56px;
+    letter-spacing: -2px;
+    color: #1B1D23;
+}
+
+.welcome_statement{
+    position: absolute;
+    height: 325px;
+    width: 445px;
+    right: 640px;
+    left: 355px;
+    top: 1420px;
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #60636D;
+
+
+}
 
 /*Footer*/
 footer {
