@@ -149,3 +149,19 @@
     font-weight: normal;
     /* padding-top: 20px; */
 }    
+
+.image-map {
+    background-image: url("../assets/contact/desktop/image-map.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1274px;
+    height: 631px;
+    left: calc(50% - 1274px/2);
+    top: 1516px;
+}
+
+/* .footer-logo { 
+    top: 2200px;
+} */
