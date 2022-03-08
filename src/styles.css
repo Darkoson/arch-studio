@@ -305,41 +305,31 @@ color: #FFFFFF;
 }
 
 .aboutus_note{
-    position: absolute;
-    left: 190px;
-    top: 320px;
-  /*  right: 733px;
-    bottom: 168px;*/
-    background-color: #1B1D23;
     height: 72px;
     width: 187px;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 320px;
+    background-color: #1B1D23; 
 }
 
 .aboutus_note a{
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
     position: absolute;
+    top: 24px;
+    right: 80px;
+    bottom: 23px;
+    left: 28px;
     height: 25px;
     width: 75px;
-    top: 24px;
-    left: 35px;
-    right: 56px;
-    bottom: 23px;
-    font-family: Spartan;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: right;
-    color: #EEEFF4;
-    /*display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;*/
 }
 
 .aboutus_note img{
-    left: 131px;
-    top: 36.5px;
-    right: 32px;
-    bottom: 34.5px;
+    margin-left: 100px;
+    padding-bottom: 50px;
 }
 
 /*Footer*/
