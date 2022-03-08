@@ -148,10 +148,10 @@
 }
 .leaders-section{
     width: 77vw;
-    height: 87vh;
+    height: 135vh;
     margin-left: 12.4%;
     margin-bottom: 10em;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -167,24 +167,102 @@
     line-height: 150%;
     letter-spacing: -2px;
     color: #1B1D23;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     
 }
 .leaders-image{
-    width: 45vw;
-    height: 87vh;
-    border: 1px solid red;
+    width: 48vw;
+    height: 135vh;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.leaders-image-top{
-    width: 45vw;
-    height: 40vh;
-    border: 1px solid black;
+.leaders-top-images{
+    width: 48vw;
+    height: 62vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.leaders-image-bottom{
-    width: 45vw;
-    height: 40vh;
-    border: 1px solid blueviolet;
+.leaders-text-image-wrapper{
+    height: 62vh;
+    width: 23vw;
+    /* border: 1px solid rgb(57, 90, 3); */
+}
+.leaders-jake-image{
+    height: 48vh;
+    width: 23vw;
+    /* border: 1px solid rgb(90, 3, 51); */
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/avatar-jake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.leaders-Smith-image{
+    height: 48vh;
+    width: 23vw;
+    /* border: 1px solid rgb(90, 3, 51); */
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/avatar-thompson.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.leaders-text-top{
+    height: 5vh;
+    width: 23vw;
+    /* border: 1px solid rgb(3, 90, 71); */
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    color: #1B1D23;
+    margin-top: 2em;
+}
+.leaders-text-bottom{
+    height: 5vh;
+    width: 23vw;
+    /* border: 1px solid rgb(36, 3, 90);  */
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 25px;
+    color: #1B1D23;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+.leaders-bottom-images{
+    width: 48vw;
+    height: 62vh;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leaders-Jackson-image{
+    height: 48vh;
+    width: 23vw;
+    /* border: 1px solid rgb(90, 3, 51); */
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/avatar-jackson.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.leaders-Maria-image{
+    height: 48vh;
+    width: 23vw;
+    /* border: 1px solid rgb(90, 3, 51); */
+    background-color: #50484818;
+    background-image: url(../assets/about/desktop/avatar-maria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
 }
