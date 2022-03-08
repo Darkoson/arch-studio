@@ -6,9 +6,11 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="./src/styles.css">
+  <link rel="stylesheet" href="./src/contact.css">
   <title>Frontend Mentor | Arch Studio Website Challenge</title>
 </head>
 <body>
+  <!--Navigation-->
   <nav>
     <div class="logo">
       <a href="index.html"><img src="./assets/logo.svg" alt="logo"></a>
@@ -21,48 +23,81 @@
     </ul>
   </nav>
 
-  <!--Contact
+  <main>
+    <div class="page-container">
+      <div class="upper-section">
+        <div class="phone-image"></div>
+        <div class="section-text">
+          <h1 class="big-title">Contact</h1>
+          <div class="project-text">
+            <h2>Tell us about your project</h2>
+            <p>
+              We’d love to hear more about your project. Please, leave a message below or give 
+              us a call. We have two offices, one in Texas and one in Tennessee. If you find 
+              yourself nearby, come say hello!
+            </p>
+          </div>
 
-  Portfolio
-  About Us
-  Contact
+        </div>
 
-  Contact
+      </div>
+    </div>
+    <!--Contact details-->
+    <div class="contact-details-container">
+      <div class="contact-details-header">
+        <h2>Contact Details</h2>
+      </div>
+      <div class="contact-office">
+        <p>Main Office</p>
+        <p>Mail:	archone@mail.com</p>
+        <p>Address: 1892 Chenoweth Drive TN</p>
+        <p>Phone: 123-456-3451</p>
+        <a href="">View on Map <img src="./assets/icons/icon-arrow-black.svg" alt="icon-arrow"></a>
+      </div>
+      <div class="contact-office">
+        <p>Office II</p>
+        <p>Mail: archtwo@mail.com</p>
+        <p>Address: 3399 Wines Lane TX</p>
+        <p>Phone: 832-123-4321</p>
+        <a href="">View on Map <img src="./assets/icons/icon-arrow-black.svg" alt="icon-arrow" stroke="black"></a>
+      </div>
+    </div>
+    <!--location map-->
+    <div class="image-map"></div>
 
-  Tell us about your project
+    <!--Contact section-->
+    <div class="contact-form-container">
+      <div class="form-title">
+        <h2>Connect with us</h2>
+      </div>
+      <div class="contact-form">
+        <form>
+          <div class="form-section">
+            <input type="text" name="name" required>
+            <label for="name" class="label">
+              <span class="form-content">Name</span>
+            </label>
+          </div>
+          <div class="form-section">
+            <input type="email" pattern="*@*" name="email" required>
+            <label for="email" class="label">
+              <span class="form-content">Email</span>
+            </label>
+          </div>
+          <div class="form-section">
+            <input type="text" name="message" required>
+            <label for="message" class="label">
+              <span class="form-content">Message</span>
+            </label>
+          </div>
+          <button id="submit-button" type="submit"><img src="./assets/icons/icon-arrow.svg" alt="icon-arrow"></button>
+        </form>
+      </div>
+    </div>
+  </main>
 
-  We’d love to hear more about your project. Please, leave a message below or give 
-  us a call. We have two offices, one in Texas and one in Tennessee. If you find 
-  yourself nearby, come say hello!
 
-  Contact Details
-
-  Main Office
-  Mail:	archone@mail.com
-  Address: 1892 Chenoweth Drive TN
-  Phone: 123-456-3451
-
-  View on Map
-
-  Office II
-  Mail: archtwo@mail.com
-  Address: 3399 Wines Lane TX
-  Phone: 832-123-4321
-
-  View on Map
-
-  Connect with us
-
-  Name
-  Email
-  Message
-
-
-  Portfolio
-  About Us
-  Contact
-
-  See Our Portfolio -->
+ 
   <footer>
     <div class="footer-logo">
       <a href="index.html"><img src="./assets/logo-white-fill.svg" alt="logo"></a>
