@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+
+
+
 /*Navigation*/
 .logo {
     position: absolute;
@@ -28,8 +31,572 @@
     font-size: 15px;
     color: #7D828F;
     text-decoration: none;
-}    
+}
 
+
+.homebanner hr{
+    /*border: #1B1D23 solid 3px;*/
+    position: absolute;
+    left: 77px;
+    right: 1362px;
+    top: 0px;
+    width: 1px;
+    height: 104px;
+}
+
+.homebanner p{
+    color: #c8ccdc;
+    font-family: Spartan, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    position: absolute;
+    height: 25px;
+    top: 120px;
+    left: 70px;
+    right: 1351px;
+    bottom: 3441px;
+    transform: rotate(90deg);
+    letter-spacing: 40px;
+
+}
+.slide{
+    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-hero-paramour.jpg");
+    background-color: rgba(0, 0, 0, 0.445);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    width: 1110px; 
+    margin: auto 0;
+    margin-left:165px;
+    margin-right: 165px;
+    margin-top: 152px;
+    margin-bottom: 2819px;
+
+}
+
+.slide_1 h3{
+    font-family: Spartan, sans-serif;
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    padding-left: 190px;
+    padding-top: 180px;
+    padding-bottom: 380px;
+    padding-right: 376px;
+    position: absolute;
+    height: 160px;
+    margin-bottom: 20px;;
+
+}
+
+.slide_note p{
+    font-family: Spartan, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    position: absolute;
+    padding-top: 372px;
+    padding-right: 475px;
+    padding-bottom: 291px;
+    padding-left: 190px;
+    color: #FFFFFF;
+    height: 75px;
+    width: 445px;
+    margin-top: 30px;
+    
+}
+
+.profile_note{
+    background-color: #1B1D23;
+    height: 72px;
+    width: 252px;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 500px;
+   
+
+}
+
+.profile_note:hover{
+    background-color: #7D828F;
+}
+
+
+
+.profile_note a{
+    color:#FFFFFF;
+    font-family: Spartan, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 72px;
+    width: 252px;
+}
+
+.profile_note img{
+    margin-left: 20px;
+}
+
+.rectangle{
+    background-color: #EEEFF4;
+    height: 80px;
+    width: 320px;
+    left: 85px;
+    top: 782px;
+    position: absolute;
+    display: inline-block;
+    
+}
+
+.rectangle_1{
+    background-color: #1B1D23;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.rectangle_1:hover{
+    background-color: #7D828F;
+}
+
+.rectangle_1 a{
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    height: 25px;
+    width: 19px;
+    left: 30px;
+    right: 31px;
+    top: 27px;
+    bottom: 28px;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.rectangle_2{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 80px;
+    
+}
+
+.rectangle_2:hover{
+    background-color: #EEEFF4;
+}
+
+.rectangle_2 a{
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    color: #7D828F;
+    font-weight: bold;
+    position: absolute;
+    height: 25px;
+    width: 19px;
+    left: 28px;
+    right: 29px;
+    top: 27px;
+    bottom: 28px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.rectangle_3{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+    
+}
+
+.rectangle_3:hover{
+    background-color: #EEEFF4;
+}
+
+.rectangle_3 a{
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    color: #7D828F;
+    font-weight: bold;
+    position: absolute;
+    height: 25px;
+    width: 19px;
+    left: 30px;
+    right: 31px;
+    top: 27px;
+    bottom: 28px;
+    justify-content: center;
+    display: flex;
+}
+
+.rectangle_4{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 240px;
+    
+}
+
+.rectangle_4:hover{
+    background-color: #EEEFF4;
+}
+
+.rectangle_4 a{
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    color: #7D828F;
+    font-weight: bold;
+    position: absolute;
+    height: 25px;
+    width: 19px;
+    left: 30px;
+    right: 31px;
+    top: 27px;
+    bottom: 28px;
+    justify-content: center;
+    display: flex;
+}
+
+
+/*Welcome*/
+.welcome{
+    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-welcome.jpg");
+    position: absolute;
+    height: 568px;
+    width : 350px;
+    top: 1160px;
+    left: 925px;
+    
+}
+
+.welcome_1 h1{
+    font-family: Spartan, sans-serif;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -5px;
+    color: #EEEFF4;
+    position: absolute;
+    width: 968px;
+    height: 200px;
+    left: 165px;
+    top: 890px;
+}
+
+.welcome_note h3{
+    position: absolute;
+    height: 112px;
+    width: 446px;
+    right: 640px;
+    left: 354px;
+    top: 1200px;
+    font-family: Spartan, sans-serif;
+    font-size: 56px;
+    letter-spacing: -2px;
+    color: #1B1D23;
+}
+
+.welcome_statement{
+    position: absolute;
+    height: 325px;
+    width: 445px;
+    right: 640px;
+    left: 355px;
+    top: 1450px;
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #60636D;
+}
+
+/*Small Team*/
+.smallteam{
+    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-small-team.jpg");
+    background-color: rgba(0, 0, 0, 0.445);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1110px;
+    height: 560px;
+    left: 165px;
+    top: 1835px;
+}
+
+.smallteam_1 h3{
+position: absolute;
+height: 126px;
+width: 445px;
+left: 190px;
+right: 475px;
+top: 130px;
+bottom: 266px;
+font-family: Spartan, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 56px;
+letter-spacing: -2px;
+color: #FFFFFF;
+}
+
+.aboutus_note{
+    height: 72px;
+    width: 187px;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 320px;
+    background-color: #1B1D23; 
+}
+
+.aboutus_note:hover{
+    background-color: #7D828F;
+}
+
+.aboutus_note a{
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 24px;
+    right: 80px;
+    bottom: 23px;
+    left: 28px;
+    height: 25px;
+    width: 75px;
+    text-decoration: none;
+}
+
+.aboutus_note img{
+    position: absolute;
+    left: 95px;
+
+}
+
+
+/*Featured*/
+.featured_1 h2{
+    font-family: Spartan, sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    color: #1B1D23;
+    line-height: 56px;
+    position: absolute;
+    left: 165px;
+    right: 829px;
+    top: 2603px;
+    bottom: 1023px;
+    height: 56px;
+    width: 446px;
+}
+
+.featured_note{
+    background-color: #1B1D23;
+    position: absolute;
+    height: 72px;
+    width: 169px;
+    left: 1106px;
+    right: 165px;
+    top: 2595px;
+}
+
+.featured_note a{
+    color: #FFFFFF;
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    height: 25px;
+    width: 57px;
+    top: 24px;
+    right: 80px;
+    bottom: 23px;
+    left: 28px;
+}
+
+.featured_note:hover{
+    background-color: #7D828F;
+}
+
+.featured_note img{
+    position: absolute;
+    left: 85px;
+}
+
+
+.images{
+    height: 560px;
+    width: 1110px;
+    position: absolute;
+    top: 2731px;
+    right: 165px;
+    bottom: 400px;
+    left: 165px;
+}
+
+.projectdelsol{
+    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/portfolio/desktop/image-del-sol.jpg");
+    background-color: rgba(46, 112, 173, 0.288);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    width: 350px;
+    position: absolute;
+    right: 925px;
+    bottom: 200px;
+    top: 72px;
+    left: 0px;
+}
+
+
+.projectdelsol p{
+    color: #ffffff;
+    opacity: 0.5;
+    font-family: Spartan, sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    height: 200px;
+    width: 84px;
+    top: -200px;
+    bottom: 100px;
+    left: 280px;
+    
+}
+
+.projectdelsol_2{
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 490px;
+    left: 40px;
+    color: #FFFFFF;
+}
+
+.projectdelsol_1{
+    color: #FFFFFF;
+    font-family: Spartan, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    top: 468px;
+    left: 40px;
+    position: absolute;
+}
+
+.BTower{
+    background-image: url("../assets/portfolio/desktop/image-228b.jpg");
+    height: 560px;
+    width: 350px;
+    position: absolute;
+    right: 925px;
+    bottom: 200px;
+    top: 72px;
+    left: 400px;
+}
+
+
+.BTower p{
+    color: #ffffff;
+    opacity: 0.5;
+    font-family: Spartan, sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    height: 200px;
+    width: 145px;
+    top: -200px;
+    bottom: 100px;
+    left: 221px;   
+}
+
+.BTower_2{
+    color: #FFFFFF;
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top:490px;
+    left: 40px;
+}
+
+.BTower_1{
+    color: #FFFFFF;
+    font-family: Spartan, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    top: 466px;
+    position: absolute;
+    left: 40px;
+}
+
+
+.leProtoype{
+    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/portfolio/desktop/image-prototype.jpg");
+    height: 560px;
+    width: 310px;
+    position: absolute;
+    right: 0px;
+    bottom: 200px;
+    top: 72px;
+    left: 800px;
+}
+
+.leProtoype p{
+    color: #ffffff;
+    opacity: 0.5;
+    font-family: Spartan, sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    height: 200px;
+    width: 145px;
+    top: -200px;
+    bottom: 100px;
+    left: 193px; 
+}
+
+
+.lePrototype_1{
+    color: #FFFFFF;
+    font-family: Spartan, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    top: 466px;
+    position: absolute;
+    left: 40px;
+}
+
+.lePrototype_2{
+    color: #FFFFFF;
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top:490px;
+    left: 40px;
+}
 /*Footer*/
 footer {
     position: absolute;
@@ -103,4 +670,8 @@ footer {
 
 .button-link img {
     margin-left: 20px;
+}
+
+.button-link:hover{
+    background-color: #7D828F
 }
