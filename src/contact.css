@@ -331,12 +331,3 @@ html, body {
     cursor: pointer;
     border: none;
 }
-.footer-logo, .footer-nav { 
-    /* top: 2600px; */
-    top: 0;
-    bottom: 0;
-}
-
-.button-link {
-    top: 65px;
-}
