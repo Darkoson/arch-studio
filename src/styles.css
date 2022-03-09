@@ -397,6 +397,7 @@ color: #FFFFFF;
     bottom: 200px;
     top: 72px;
     left: 0px;
+    
 }
 .projectdelsol p{
     color: #ffffff;
@@ -414,7 +415,6 @@ color: #FFFFFF;
 }
 
 .projectdelsol_2{
-    /*border: #f50808 solid 3px;*/
     font-family: Spartan, sans-serif;
     font-size: 15px;
     font-weight: bold;
@@ -479,6 +479,36 @@ color: #FFFFFF;
     left: 40px;
 }
 
+.leProtoype{
+    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/portfolio/desktop/image-prototype.jpg");
+    height: 560px;
+    width: 310px;
+    position: absolute;
+    right: 0px;
+    bottom: 200px;
+    top: 72px;
+    left: 800px;
+}
+
+.lePrototype_1{
+    color: #FFFFFF;
+    font-family: Spartan, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    top: 466px;
+    position: absolute;
+    left: 40px;
+}
+
+.lePrototype_2{
+    color: #FFFFFF;
+    font-family: Spartan, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top:490px;
+    left: 40px;
+}
 /*Footer*/
 footer {
     display: flex;
