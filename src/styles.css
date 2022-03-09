@@ -33,8 +33,38 @@
     text-decoration: none;
 }
 
+
+.homebanner hr{
+    /*border: #1B1D23 solid 3px;*/
+    position: absolute;
+    left: 77px;
+    right: 1362px;
+    top: 0px;
+    width: 1px;
+    height: 104px;
+}
+
+.homebanner p{
+    color: #c8ccdc;
+    font-family: Spartan, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    position: absolute;
+    height: 25px;
+    top: 120px;
+    left: 70px;
+    right: 1351px;
+    bottom: 3441px;
+    transform: rotate(90deg);
+    letter-spacing: 40px;
+
+}
 .slide{
     background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-hero-paramour.jpg");
+    background-color: rgba(0, 0, 0, 0.445);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 720px;
     width: 1110px; 
     margin: auto 0;
@@ -301,6 +331,10 @@
 /*Small Team*/
 .smallteam{
     background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-small-team.jpg");
+    background-color: rgba(0, 0, 0, 0.445);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     width: 1110px;
     height: 560px;
@@ -350,6 +384,7 @@ color: #FFFFFF;
     left: 28px;
     height: 25px;
     width: 75px;
+    text-decoration: none;
 }
 
 .aboutus_note img{
@@ -421,6 +456,10 @@ color: #FFFFFF;
 
 .projectdelsol{
     background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/portfolio/desktop/image-del-sol.jpg");
+    background-color: rgba(46, 112, 173, 0.288);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 560px;
     width: 350px;
     position: absolute;
@@ -428,7 +467,6 @@ color: #FFFFFF;
     bottom: 200px;
     top: 72px;
     left: 0px;
-    
 }
 
 
@@ -454,11 +492,11 @@ color: #FFFFFF;
     position: absolute;
     top: 490px;
     left: 40px;
-    color: #7D828F;
+    color: #FFFFFF;
 }
 
 .projectdelsol_1{
-    color: #7D828F;
+    color: #FFFFFF;
     font-family: Spartan, sans-serif;
     font-size: 18px;
     font-weight: bold;
