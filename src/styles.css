@@ -90,6 +90,11 @@
 
 }
 
+.profile_note:hover{
+    background-color: #7D828F;
+}
+
+
 
 .profile_note a{
     color:#FFFFFF;
@@ -129,6 +134,11 @@
     top: 0%;
     bottom: 0%;
 }
+
+.rectangle_1:hover{
+    background-color: #7D828F;
+}
+
 .rectangle_1 a{
     font-family: Spartan, sans-serif;
     font-size: 15px;
@@ -156,6 +166,9 @@
     
 }
 
+.rectangle_2:hover{
+    background-color: #EEEFF4;
+}
 
 .rectangle_2 a{
     font-family: Spartan, sans-serif;
@@ -183,6 +196,10 @@
     
 }
 
+.rectangle_3:hover{
+    background-color: #EEEFF4;
+}
+
 .rectangle_3 a{
     font-family: Spartan, sans-serif;
     font-size: 15px;
@@ -208,6 +225,9 @@
     
 }
 
+.rectangle_4:hover{
+    background-color: #EEEFF4;
+}
 
 .rectangle_4 a{
     font-family: Spartan, sans-serif;
@@ -278,6 +298,7 @@
     color: #60636D;
 }
 
+/*Small Team*/
 .smallteam{
     background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-small-team.jpg");
     position: absolute;
@@ -313,6 +334,10 @@ color: #FFFFFF;
     background-color: #1B1D23; 
 }
 
+.aboutus_note:hover{
+    background-color: #7D828F;
+}
+
 .aboutus_note a{
     font-family: Spartan, sans-serif;
     font-size: 15px;
@@ -333,6 +358,8 @@ color: #FFFFFF;
 
 }
 
+
+/*Featured*/
 .featured_1 h2{
     font-family: Spartan, sans-serif;
     font-size: 56px;
@@ -372,6 +399,10 @@ color: #FFFFFF;
     left: 28px;
 }
 
+.featured_note:hover{
+    background-color: #7D828F;
+}
+
 .featured_note img{
     position: absolute;
     left: 85px;
@@ -399,6 +430,8 @@ color: #FFFFFF;
     left: 0px;
     
 }
+
+
 .projectdelsol p{
     color: #ffffff;
     opacity: 0.5;
@@ -444,6 +477,8 @@ color: #FFFFFF;
     top: 72px;
     left: 400px;
 }
+
+
 .BTower p{
     color: #ffffff;
     opacity: 0.5;
@@ -455,8 +490,7 @@ color: #FFFFFF;
     width: 145px;
     top: -200px;
     bottom: 100px;
-    left: 210px;
-    
+    left: 221px;   
 }
 
 .BTower_2{
@@ -479,6 +513,7 @@ color: #FFFFFF;
     left: 40px;
 }
 
+
 .leProtoype{
     background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/portfolio/desktop/image-prototype.jpg");
     height: 560px;
@@ -489,6 +524,21 @@ color: #FFFFFF;
     top: 72px;
     left: 800px;
 }
+
+.leProtoype p{
+    color: #ffffff;
+    opacity: 0.5;
+    font-family: Spartan, sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    height: 200px;
+    width: 145px;
+    top: -200px;
+    bottom: 100px;
+    left: 193px; 
+}
+
 
 .lePrototype_1{
     color: #FFFFFF;
@@ -577,4 +627,8 @@ footer {
 
 .button-link img {
     margin-left: 20px;
+}
+
+.button-link:hover{
+    background-color: #7D828F
 }
