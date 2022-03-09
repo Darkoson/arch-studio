@@ -295,6 +295,10 @@
     background-blend-mode: overlay;
 }
 
+.social-media{
+    visibility: hidden;
+}
+
 @media screen and (max-width: 768px) {
     .about-us-banner{
         position: absolute;
@@ -443,4 +447,126 @@
     .heritage-image{
        display: none;
     }
+
+
+    .leaders-section{
+        width: 77vw;
+        height: 185vh;
+        margin-left: 12.4%;
+        margin-bottom: 10em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .leaders-title{
+        height: 21vh;
+        width: 30vw;
+        font-size: 250%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 150%;
+        letter-spacing: -2px;
+        color: #1B1D23;
+    }
+    .leaders-top-images{
+        width: 77vw;
+        height: 120vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50%;
+        margin-left: -12.4rem;
+    }
+    .leaders-text-image-wrapper{
+        height: 64vh;
+        width: 37.5vw;
+    }
+    .leaders-jake-image{
+        height: 55vh;
+        width: 37.5vw;
+    }
+    
+    .leaders-Smith-image{
+        height: 55vh;
+        width: 37.5vw;
+    }
+    .leaders-text-top{
+        height: 5vh;
+        width: 25vw;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.9rem;
+        line-height: 25px;
+        color: #1B1D23;
+        margin-top: 1em;
+    }
+    .leaders-text-bottom{
+        height: 5vh;
+        width: 25vw;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9rem;
+        line-height: 25px;
+        color: #1B1D23;
+        mix-blend-mode: normal;
+        opacity: 0.98;
+    }
+    .leaders-bottom-images{
+        width: 77vw;
+        height: 120vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 27%;
+        margin-left: -12.4rem;
+    }
+    .leaders-Jackson-image{
+        height: 55vh;
+        width: 37.5vw;
+    }
+    
+    .leaders-Maria-image{
+        height: 55vh;
+        width: 37.5vw;
+    }
+    .social-media{
+        position: absolute;
+        top: 446%;
+        height: 112%;
+        width: 55%;
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .first-column-social{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .second-column-social{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-socials{
+        height: 50%;
+        width: 23%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .right-socials{
+        height: 50%;
+        width: 23%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }
