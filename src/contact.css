@@ -82,10 +82,14 @@ html, body {
     z-index: 1;
 }
 
-.section-text h1 {
+.contact-header {
     position: absolute;
     width: 47vw;
     top: 15%;
+    z-index: 2;
+}
+
+.contact-header h1 {
     font-family: "Spartan";
     font-style: normal;
     font-weight: bold;
@@ -94,7 +98,7 @@ html, body {
     text-align: right;
     letter-spacing: -5px;
     color: #EEEFF4;
-    z-index: 2;
+    
 }
 
 .project-text {
@@ -144,8 +148,9 @@ html, body {
 }
 
 .contact-details-container {
-    position: absolute;
+    /* position: absolute; */
     margin: 0px 9.5em;
+    margin-bottom: 9.5em;
     width: 100%;
     height: 212px;
     /* left: 165px; */
@@ -213,25 +218,34 @@ html, body {
     /* padding-top: 20px; */
 }    
 
+.image-map-container {
+    /* position: absolute; */
+    width: 80vw;
+    height: 631px;
+    /* left: 165px; */
+    /* right: 165px; */
+    margin-bottom: 9.5em;
+    margin-top: 9.5em;
+    margin-left: 9.5em;
+}
+
 .image-map {
     background-image: url("../assets/contact/desktop/image-map.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    width: 1100px;
+    width: 80vw;
     height: 631px;
-    left: 165px;
-    right: 165px;
-    top: 1450px;
+    /* top: 1450px; */
 }
 
 .contact-form-container {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
-    top: 2172px;
-    left: 165px;
-    width: 1150px;
+    /* top: 2172px; */
+    margin-bottom: 9.5em;
+    margin-left: 9.5em;
+    width: 80vw;
     height: 300px;
 }
 
@@ -318,9 +332,11 @@ html, body {
     border: none;
 }
 .footer-logo, .footer-nav { 
-    top: 2600px;
+    /* top: 2600px; */
+    top: 0;
+    bottom: 0;
 }
 
 .button-link {
-    top: 2664px;
+    top: 65px;
 }
