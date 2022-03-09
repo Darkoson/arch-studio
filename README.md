@@ -4,6 +4,7 @@
 ## Available Static Features
 >The following static pages have initial designs complete and currently deployed:
 
+* Home
 * About Us
 * Contact
 
