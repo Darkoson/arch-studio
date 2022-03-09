@@ -1,48 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    height: 100%;
+    /* width: 100%; */
+}
 
 /* .page-container {
     min-height: 100%;
     padding-bottom: 200px;
-}
-.upper-section {
-    width: 100%;
-    height: 720px;
-    display: flex;
-    position: relative;
-    z-index: 0;
 } */
 
+.upper-section {
+    margin: 9.5em;
+    width: 100%;
+    /* margin-left: 9.5em; */
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+} 
+
 .phone-image {
-    left: 165px;
+    /* left: 165px;
     top: 152px;
-    bottom: auto;
+    bottom: auto; */
     background-image: url("../assets/contact/desktop/image-hero.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    width: 635px;
-    height: 720px;
+    width: 50%;
+    height: 100%;
     z-index: 0;
 }
 
-.project-text {
+.section-text {
     position: absolute;
-    width: 793px;
-    height: 503px;
-    left: 647px;
-    top: 369px;
-    background: #FFFFFF;
+    width: 45%;
+    height: 100%;
+    left: 32%;
+    /* bottom: 0px; */
+    top: 25%;
+    /* background: #FFFFFF; */
     z-index: 1;
 }
 
-.big-title {
+.section-text h1 {
     position: absolute;
-    width: 822px;
-    height: 200px;
-    left: 448px;
-    top: 135px;
-    font-family: Spartan;
+    width: 50%;
+    top: 15%;
+    font-family: "Spartan";
     font-style: normal;
     font-weight: bold;
     font-size: 200px;
@@ -53,12 +65,20 @@
     z-index: 2;
 }
 
+.project-text {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 30%;
+    left: 32%;
+    background-color: white;
+}
+
 .project-text h2 {
     position: absolute;
     height: 134px;
     left: 20%;
-    right: 20%;
-    top: 235px;
+    top: 50%;
     font-family: "Spartan";
     font-style: normal;
     font-weight: bold;
@@ -72,7 +92,7 @@
     position: absolute;
     height: 100px;
     left: 20%;
-    right: 20%;
+    /* right: 20%; */
     bottom: 0;
     font-family: "Spartan";
     font-style: normal;
