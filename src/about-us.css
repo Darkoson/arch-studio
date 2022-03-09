@@ -1,7 +1,7 @@
-/* this page is divided into three sections namely
-01 - Hero section 
-02 - heritage section
-03 - leaders section
+/* chapter 1 is styling for the desktop
+    1.1- desktop Hero section...from line 39 to line 127
+    1.2 - heritage section
+    1.3 - leaders section
 */
 
 /* general styling that is applied to the about page */
@@ -34,6 +34,10 @@
     height: 1px;
     width: 7rem;
 }
+
+/* CHAPTER 1 - DESKTOP SECTION */
+
+/* 1.1-----Hero Section */
 .hero-section{
     margin-top: 9.5em;
     width: 100%;
@@ -123,6 +127,8 @@
     color: #60636D;
     margin: 11.5% auto;
 }
+
+/* 1.2-----Heritage Section */
 .heritage-section{
     width: 77vw;
     height: 87vh;
@@ -178,6 +184,8 @@
     background-repeat: no-repeat;
     background-blend-mode: overlay;
 }
+
+/* 1.3-----Leaders Section */
 .leaders-section{
     width: 77vw;
     height: 135vh;
@@ -285,4 +293,97 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-section{
+    margin-top: 9.5em;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10em;
+    border: 1px solid black;
+}
+.hero-image-section{
+    width: 70vw;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+.hero-image{
+    position: absolute;
+    width: 47vw;
+    height: 110vh;
+    background-color: #25212173;
+    background-image: url(../assets/about/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.hero-section-about{
+    position: absolute;
+    width: 48vw;
+    height: 30vh;
+    left: 44%;
+    top: 38%;
+    z-index: 50;
+}
+.hero-section-about h1{
+    padding-top: 0.18em;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12rem;
+    line-height: 1em;
+    text-align: right;
+    letter-spacing: -5px;
+    color: #EEEFF4;
+}
+.hero-rep-wrap-text{
+    position: absolute;
+    width: 51vw;
+    height: 79vh;
+    top: 57%;
+    background-color: #FFFFFF;
+    margin-left: 40.7rem;
+}
+.hero-rep-wrap-text hr{
+    margin-left: 18%;
+    margin-top: 20%;
+    width: 4rem;
+    height: 1px;
+    background: #C8CCD8;
+}
+.hero-rep-wrap-text-top{
+    height: 21vh;
+    width: 33vw;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 250%;
+    line-height: 150%;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    text-align: center;
+    margin: 11.5% auto;
+}
+.hero-rep-wrap-text-top h2{
+    padding-right: 0.7em;
+}
+.hero-rep-wrap-text-bottom{
+    position: absolute;
+    height: 15vh;
+    width: 33vw;
+    left: 0.22%;
+    right: 0%;
+    top: calc(50% - 100px/2 + 121.5px);
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #60636D;
+    margin: 11.5% auto;
+}
 }
