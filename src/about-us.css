@@ -398,4 +398,49 @@
         color: #60636D;
         margin: 11.5% auto;
     }
+    .heritage-section{
+        width: 77vw;
+        height: 87vh;
+        margin-left: 12.4%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10em;
+    }
+    .heritage-text hr{
+        width: 4rem;
+        height: 1px;
+        background-color: #C8CCD8;
+    }
+    .heritage-text-top{
+        height: 21vh;
+        width: 30vw;
+        font-size: 250%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 150%;
+        letter-spacing: -2px;
+        color: #1B1D23;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .heritage-text-bottom{
+        height: 46vh;
+        width: 75vw;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9em;
+        line-height: 25px;
+        color: #60636D;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .heritage-image{
+       display: none;
+    }
 }
