@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
-
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Spartan, sans-serif;
+}
 
 /*Navigation*/
 .logo {
@@ -33,42 +37,46 @@
     text-decoration: none;
 }
 
+/*.homebanner{
+    width: 100px;
+    height: 104px;
+    border: 1px solid #1B1D23;
+    position: absolute;
+    
+}*/
 
 .homebanner hr{
-    /*border: #1B1D23 solid 3px;*/
-    position: absolute;
-    left: 77px;
-    right: 1362px;
-    top: 0px;
     width: 1px;
     height: 104px;
+    left: 77px;
+    position: absolute;
 }
 
 .homebanner p{
-    color: #c8ccdc;
-    font-family: Spartan, sans-serif;
-    font-size: 20px;
-    font-weight: 500px;
-    position: absolute;
+    width: 98px;
     height: 25px;
-    top: 120px;
-    left: 70px;
-    right: 1351px;
-    bottom: 3441px;
+    left: 25px;
+    top: 250px;
+    position: absolute;
     transform: rotate(90deg);
-    letter-spacing: 40px;
-
+    letter-spacing: 50px;
+    color: #7D828F;
 }
+
+
+
+
 .slide{
-    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-hero-paramour.jpg");
+    background-image: url("../assets/home/desktop/image-hero-paramour.jpg");
     background-color: rgba(0, 0, 0, 0.445);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
     height: 720px;
     width: 1110px; 
     margin: auto 0;
-    margin-left:165px;
+    margin-left: 165px;
     margin-right: 165px;
     margin-top: 152px;
     margin-bottom: 2819px;
@@ -88,7 +96,8 @@
     padding-right: 376px;
     position: absolute;
     height: 160px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    width: 544px;
 
 }
 
@@ -167,6 +176,7 @@
 
 .rectangle_1:hover{
     background-color: #7D828F;
+    cursor: pointer;
 }
 
 .rectangle_1 a{
@@ -198,6 +208,7 @@
 
 .rectangle_2:hover{
     background-color: #EEEFF4;
+    cursor: pointer;
 }
 
 .rectangle_2 a{
@@ -228,6 +239,7 @@
 
 .rectangle_3:hover{
     background-color: #EEEFF4;
+    cursor: pointer;
 }
 
 .rectangle_3 a{
@@ -257,6 +269,7 @@
 
 .rectangle_4:hover{
     background-color: #EEEFF4;
+    cursor: pointer;
 }
 
 .rectangle_4 a{
@@ -278,12 +291,13 @@
 
 /*Welcome*/
 .welcome{
-    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-welcome.jpg");
+    background-image: url("../assets/home/desktop/image-welcome.jpg");
     position: absolute;
     height: 568px;
     width : 350px;
-    top: 1160px;
+    top: 1080px;
     left: 925px;
+    right: 10.3em;
     
 }
 
@@ -298,7 +312,7 @@
     width: 968px;
     height: 200px;
     left: 165px;
-    top: 890px;
+    top: 967px;
 }
 
 .welcome_note h3{
@@ -307,7 +321,7 @@
     width: 446px;
     right: 640px;
     left: 354px;
-    top: 1200px;
+    top: 1140px;
     font-family: Spartan, sans-serif;
     font-size: 56px;
     letter-spacing: -2px;
@@ -320,7 +334,7 @@
     width: 445px;
     right: 640px;
     left: 355px;
-    top: 1450px;
+    top: 1380px;
     font-family: Spartan, sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -330,7 +344,7 @@
 
 /*Small Team*/
 .smallteam{
-    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-small-team.jpg");
+    background-image: url("../assets/home/desktop/image-small-team.jpg");
     background-color: rgba(0, 0, 0, 0.445);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -404,7 +418,7 @@ color: #FFFFFF;
     position: absolute;
     left: 165px;
     right: 829px;
-    top: 2603px;
+    top: 2573px;
     bottom: 1023px;
     height: 56px;
     width: 446px;
@@ -417,7 +431,7 @@ color: #FFFFFF;
     width: 169px;
     left: 1106px;
     right: 165px;
-    top: 2595px;
+    top: 2545px;
 }
 
 .featured_note a{
@@ -448,15 +462,15 @@ color: #FFFFFF;
     height: 560px;
     width: 1110px;
     position: absolute;
-    top: 2731px;
+    top: 2600px;
     right: 165px;
     bottom: 400px;
     left: 165px;
 }
 
 .projectdelsol{
-    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/portfolio/desktop/image-del-sol.jpg");
-    background-color: rgba(46, 112, 173, 0.288);
+    background-image: url("../assets/portfolio/desktop/image-del-sol.jpg");
+    background-color: rgba(18, 48, 77, 0.288);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -479,7 +493,7 @@ color: #FFFFFF;
     position: absolute;
     height: 200px;
     width: 84px;
-    top: -200px;
+    top: 0px;
     bottom: 100px;
     left: 280px;
     
@@ -526,7 +540,7 @@ color: #FFFFFF;
     position: absolute;
     height: 200px;
     width: 145px;
-    top: -200px;
+    top: 0px;
     bottom: 100px;
     left: 221px;   
 }
@@ -553,7 +567,7 @@ color: #FFFFFF;
 
 
 .leProtoype{
-    background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/portfolio/desktop/image-prototype.jpg");
+    background-image: url("../assets/portfolio/desktop/image-prototype.jpg");
     height: 560px;
     width: 310px;
     position: absolute;
@@ -571,8 +585,8 @@ color: #FFFFFF;
     font-weight: bold;
     position: absolute;
     height: 200px;
-    width: 145px;
-    top: -200px;
+    width: 135px;
+    top: 0px;
     bottom: 100px;
     left: 193px; 
 }
@@ -674,4 +688,201 @@ footer {
 
 .button-link:hover{
     background-color: #7D828F
+}
+
+
+/*@media(max-width: 768px){
+    .logo{
+        width: 96.16px;
+        height: 40px;
+        left: 150px;
+        top: 56px;
+    }
+
+    .nav-links{
+        width: 400px;
+        height: 25px;
+        left: 272px;
+    }
+
+    .homebanner p{
+        width: 98px;
+        height: 25px;
+        left: 39px;
+    }
+
+    .homebanner{
+        width: 1px;
+        height: 104px;
+        left: 13px;
+    }
+
+    .slide{
+        width: 573px;
+        height: 720px;
+        top: -20px;
+        left: -10px;
+    }
+
+    .slide_1 h3{
+        width: 457px;
+        height: 160px;
+        left: -75px;
+        top: -10px;
+    }
+
+    .slide_note{
+        width: 457px;
+        height: 75px;
+    }
+
+    .slide_note p{
+        width: 475px;
+        height: 75px;
+        left: -75px;
+    }
+
+    .profile_note{
+        width: 252px;
+        height: 72px;
+        left: -75px;
+        top: 10px;
+    }
+
+    .rectangle{
+        visibility: hidden;
+
+    }
+
+    .welcome_1 h1{
+        width: 581px;
+        height: 200px;
+        font-size: 120px;
+        top: 850px;
+    }
+
+    .welcome{
+        visibility: hidden;
+    }
+
+    .welcome_note{
+        width: 572px;
+        height: 275px;
+        
+    }
+
+    .welcome_note h3{
+        width: 446px;
+        height: 112px;
+        left: 160px;
+        top: 1100px;
+    }
+
+    .welcome_statement{
+        width: 572px;
+        height: 275px;
+        left: 160px;
+        top: 1300px;
+    }
+
+    .welcome_statement p{
+        left: 160px;
+        font-size: 15px;
+        
+    }
+
+    .smallteam{
+        width: 563px;
+        height: 560px;
+        top: 1680px;
+    }
+
+    .smallteam_1{
+        width: 445px;
+        height: 152px;
+
+    }
+
+    .smallteam_1 h3{
+        font-size: 56px;
+        left: 97px;
+    }
+
+    .aboutus_note{
+        width: 187px;
+        height: 72px;
+        left: -90px;
+        top: 0px;
+    }
+
+    .featured_1{
+        width: 263px;
+        height: 56px;
+        font-size: 56px;
+        
+    }
+
+    .featured_1 h2{
+        font-size: 56px;
+        top: 2350px;
+    }
+
+    .featured_note{
+        width: 169px;
+        height: 72px;
+        left: 570px;
+        top: 2380px;
+    }
+
+    .images{
+        width: 573px;
+    }
+
+    .projectdelsol{
+        width: 573px;
+        height: 240px;
+        top: -200px
+    }
+
+    .projectdelsol p{
+        width: 84px;
+        height: 200px;
+        font-size: 200px;
+        left: 400px;
+    }
+
+    .BTower{
+        top: 70px;
+        height: 240px;
+        width: 573px;
+        left: 0px;
+        background-repeat: no-repeat;
+
+    }
+
+    .leProtoype{
+        width: 573px;
+        height: 200px;
+        left: 0px;
+        top: 340px;
+    }
+
+    .footer-logo{
+        width: 120px;
+        height: 120px;
+        left: 0px;
+    }
+
+    .footer-nav{
+        width: 560px;
+        height: 120px;
+        left: 120px;
+    }
+
+    .button-link{
+        width: 252px;
+        height: 72px;
+        left: 560px;
+        top: 3520px;
+    }
 }
