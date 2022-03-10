@@ -303,6 +303,7 @@ html, body {
 }
 
 .form-section label {
+    content: '';
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -317,17 +318,39 @@ html, body {
     line-height: 22px;
     letter-spacing: -0.3125px;
     color: #C8CCD8;
-  }
+}
+
+/* .form-section label::after {
+    content: '';
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #1B1D23;
+    transition: transform 0.3s ease-in-out;
+}    */
+
+.form-content {
+    position: absolute;
+    /* bottom: 10px; */
+    left: 0px;
+    transition: all 0.3s ease;
+    color: #C8CCD8;
+    font-size: 20px;
+}
 
 #submit-button {
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 83%;
+    left: 82.4%;
     /* top: 80%; */
     background: #1B1D23;
     cursor: pointer;
     border: none;
+    margin-top: -18.6px;
 }
 
 
@@ -336,3 +359,16 @@ html, body {
     background: #60636D;
     transition: 0.3s ease-in-out;
 }
+
+/* .form-section input:focus + .label .content-form,
+.form-section input:valid + .label .content-form {
+  opacity: 0;
+}
+
+.form-section input:focus + .label::after,
+.form-section input:valid + .label::after {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+} */
+
+ 
