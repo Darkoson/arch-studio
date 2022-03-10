@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    height: 100%;
+    /* width: 100%; */
+    display: block;
+}
+
+/* .page-container {
+    min-height: 100%;
+    padding-bottom: 200px;
+} */
+
+.contact-banner{
+    position: absolute;
+    top: 165px;
+    left: -100px;
+    height: 4vh;
+    width: 26vw;
+    transform: rotate(90deg);
+}
+.contact-banner p{
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #C8CCD8;
+    font-size: 14px;
+    padding-left: 151px;
+    padding-top: 4px;
+    font-family: Spartan;
+}
+.contact-banner hr{
+    position: absolute;
+    top: 10px;
+    height: 1px;
+    width: 7rem;
+}
+
+.upper-section {
+    margin-top: 9.5em;
+    width: 100%;
+    margin-right: none;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    margin-bottom: 9.5em;
+} 
+
+.image-hero-section {
+    height: 720px;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+}
+.image-hero {
+    /* left: 165px;
+    top: 152px;
+    bottom: auto; */
+    background-image: url("../assets/contact/desktop/image-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 47vw;
+    height: 720px;
+    z-index: 0;
+}
+
+.section-text {
+    position: absolute;
+    width: 60vw;
+    height: 720px;
+    left: 32%;
+    /* bottom: 0px; */
+    /* top: 25%; */
+    /* background: #FFFFFF;  */
+    z-index: 1;
+}
+
+.contact-header {
+    position: absolute;
+    width: 47vw;
+    top: 15%;
+    z-index: 2;
+}
+
+.contact-header h1 {
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.5rem;
+    line-height: 200px;
+    text-align: right;
+    letter-spacing: -5px;
+    color: #EEEFF4;
+    
+}
+
+.project-text {
+    position: absolute;
+    width: 45vw;
+    height: 70%;
+    top: 30%;
+    left: 25%;
+    background-color: white;
+}
+
+.project-text-top {
+    position: absolute;
+    width: 40vw;
+    height: 21vh;
+    left: 20%;
+    top: 50%;
+} 
+
+.project-text-top h2 {
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2px;
+    color: #1B1D23;
+}
+
+.project-text-bottom {
+    position: absolute;
+    width: 33vw;
+    /* height: 100px; */
+    left: 20%;
+    /* right: 20%; */
+    top: 80%;
+}
+
+.project-text-bottom p {
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #60636D;
+    margin: 0;
+}
+
+.contact-details-container {
+    /* position: absolute; */
+    margin: 0px 9.5em;
+    margin-bottom: 9.5em;
+    width: 100%;
+    height: 212px;
+    /* left: 165px; */
+    /* top: 1050px; */
+    font-family: 'Spartan';
+    font-style: normal;
+    color: #1B1D23;
+    display: flex;
+}
+
+.contact-details-header {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contact-details-header h2 {
+    width: 350px;
+    height: 205px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2px;
+    margin-top: 0;
+    text-align: left;
+}
+
+.contact-office {
+    width: 60%;
+    margin: auto;
+    height: 205px;
+    text-align: left;
+}
+.contact-office p:first-child {
+    font-weight: bold;
+    margin-bottom: 8px;
+    height: 35px;
+}
+
+.contact-office p:nth-child(4) {
+    margin-bottom: 35px;
+}
+
+.contact-office a:first-child {
+    height: 25px;
+}
+
+.contact-office a {
+    text-decoration: none;
+    color: #1B1D23;
+    height: 25px;
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    display: flex;
+}
+
+.contact-office a img {
+    margin-left: 20px;
+    font-weight: normal;
+    /* padding-top: 20px; */
+}    
+
+.image-map-container {
+    /* position: absolute; */
+    width: 80vw;
+    height: 631px;
+    /* left: 165px; */
+    /* right: 165px; */
+    margin-bottom: 9.5em;
+    margin-top: 9.5em;
+    margin-left: 9.5em;
+}
+
+.image-map {
+    background-image: url("../assets/contact/desktop/image-map.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 631px;
+    /* top: 1450px; */
+}
+
+.contact-form-container {
+    /* position: absolute; */
+    display: flex;
+    /* top: 2172px; */
+    margin-bottom: 9.5em;
+    margin-left: 9.5em;
+    width: 80vw;
+    height: 300px;
+}
+
+.form-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 310px;
+    height: 300px;
+}
+
+.form-title h2 {
+    width: 255px;
+    height: 112px;
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    margin: 0;
+}
+
+.contact-form {
+    width: 730px;
+    height: 356px;
+    /* position: relative; */
+}
+
+.form-section {
+    width: 100%;
+    height: 47px;
+    position: relative;
+    /* overflow: hidden; */
+    margin: 19px 0px;
+}
+
+.formMsg{
+    margin-top: 70px;
+}   
+
+.form-section input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #1B1D23;
+    outline: none;
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.3125px;
+}
+
+.form-section label {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #1B1D23;
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.3125px;
+    color: #C8CCD8;
+}
+
+/* .form-section label::after {
+    content: '';
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #1B1D23;
+    transition: transform 0.3s ease-in-out;
+}    */
+
+.form-content {
+    position: absolute;
+    /* bottom: 10px; */
+    left: 0px;
+    transition: all 0.3s ease;
+    color: #C8CCD8;
+    font-size: 20px;
+}
+
+#submit-button {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 82.4%;
+    /* top: 80%; */
+    background: #1B1D23;
+    cursor: pointer;
+    border: none;
+    margin-top: -18.6px;
+}
+
+
+/* Hover States */
+#submit-button:hover {
+    background: #60636D;
+    transition: 0.3s ease-in-out;
+}
+
+/* .form-section input:focus + .label .content-form,
+.form-section input:valid + .label .content-form {
+  opacity: 0;
+}
+
+.form-section input:focus + .label::after,
+.form-section input:valid + .label::after {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+} */
+
+ 
