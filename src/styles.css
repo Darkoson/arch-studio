@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
+.body{
+    margin: 0;
+}
 
 
 /*Navigation*/
@@ -37,7 +39,7 @@
 .homebanner hr{
     /*border: #1B1D23 solid 3px;*/
     position: absolute;
-    left: 77px;
+    left: -77px;
     right: 1362px;
     top: 0px;
     width: 1px;
@@ -51,9 +53,9 @@
     font-weight: 500px;
     position: absolute;
     height: 25px;
-    top: 120px;
-    left: 70px;
-    right: 1351px;
+    top: 400px;
+    left: -77px;
+    right: 1380px;
     bottom: 3441px;
     transform: rotate(90deg);
     letter-spacing: 40px;
@@ -65,10 +67,11 @@
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 720px;
-    width: 1110px; 
+    position: absolute;
+    height: 100%;
+    width: 69.3em; 
     margin: auto 0;
-    margin-left:165px;
+    margin-left: 10.3em;
     margin-right: 165px;
     margin-top: 152px;
     margin-bottom: 2819px;
@@ -88,7 +91,8 @@
     padding-right: 376px;
     position: absolute;
     height: 160px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    width: 544px;
 
 }
 
@@ -280,10 +284,11 @@
 .welcome{
     background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/home/desktop/image-welcome.jpg");
     position: absolute;
-    height: 568px;
-    width : 350px;
+    height: 65%;
+    width : 21.8em;
     top: 1160px;
     left: 925px;
+    right: 10.3em;
     
 }
 
@@ -456,7 +461,7 @@ color: #FFFFFF;
 
 .projectdelsol{
     background-image: url("file:///C:/Users/hp/Desktop/arch-studio/assets/portfolio/desktop/image-del-sol.jpg");
-    background-color: rgba(46, 112, 173, 0.288);
+    background-color: rgba(18, 48, 77, 0.288);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -669,4 +674,161 @@ footer {
 
 .button-link:hover{
     background-color: #7D828F
+}
+
+
+@media(max-width: 768px){
+    .logo{
+        width: 96.16px;
+        height: 40px;
+        left: 150px;
+        top: 56px;
+    }
+
+    .nav-links{
+        width: 400px;
+        height: 25px;
+        left: 272px;
+    }
+
+    .homebanner p{
+        width: 98px;
+        height: 25px;
+        left: 39px;
+    }
+
+    .homebanner{
+        width: 1px;
+        height: 104px;
+        left: 13px;
+    }
+
+    .slide{
+        width: 573px;
+        height: 720px;
+        top: -20px;
+        left: -10px;
+    }
+
+    .slide_1 h3{
+        width: 457px;
+        height: 160px;
+        left: -75px;
+        top: -10px;
+    }
+
+    .slide_note{
+        width: 457px;
+        height: 75px;
+    }
+
+    .slide_note p{
+        width: 475px;
+        height: 75px;
+        left: -75px;
+    }
+
+    .profile_note{
+        width: 252px;
+        height: 72px;
+        left: -75px;
+        top: 10px;
+    }
+
+    .rectangle{
+        visibility: hidden;
+
+    }
+
+    .welcome_1 h1{
+        width: 581px;
+        height: 200px;
+        font-size: 120px;
+    }
+
+    .welcome{
+        visibility: hidden;
+    }
+
+    .welcome_note{
+        width: 572px;
+        height: 275px;
+        
+    }
+
+    .welcome_note h3{
+        width: 446px;
+        height: 112px;
+        left: 160px;
+    }
+
+    .welcome_statement{
+        width: 572px;
+        height: 275px;
+        left: 160px;
+    }
+
+    .welcome_statement p{
+        left: 160px;
+        font-size: 15px;
+    }
+
+    .smallteam{
+        width: 563px;
+        height: 560px;
+    }
+
+    .smallteam_1{
+        width: 445px;
+        height: 152px;
+
+    }
+
+    .smallteam_1 h3{
+        font-size: 56px;
+        left: 97px;
+    }
+
+    .aboutus_note{
+        width: 187px;
+        height: 72px;
+        left: -90px;
+        top: 0px;
+    }
+
+    .featured_1{
+        width: 263px;
+        height: 56px;
+        font-size: 56px;
+    }
+
+    .featured_1 h2{
+        font-size: 56px;
+    }
+
+    .featured_note{
+        width: 169px;
+        height: 72px;
+        left: 570px;
+        top: 2620px;
+    }
+
+    .projectdelsol{
+        width: 573px;
+        height: 240px;
+    }
+
+    .projectdelsol p{
+        width: 84px;
+        height: 200px;
+        font-size: 200px;
+        left: 400px;
+    }
+
+    .BTower{
+        width: 573px;
+        height: 381px;
+        top: 350px;
+        left: 0px;
+    }
 }
