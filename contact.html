@@ -62,14 +62,14 @@
         <p>Mail:	archone@mail.com</p>
         <p>Address: 1892 Chenoweth Drive TN</p>
         <p>Phone: 123-456-3451</p>
-        <a href="">View on Map <img src="./assets/icons/icon-arrow-black.svg" alt="icon-arrow"></a>
+        <a href="#">View on Map <img src="./assets/icons/icon-arrow-black.svg" alt="icon-arrow"></a>
       </div>
       <div class="contact-office">
         <p>Office II</p>
         <p>Mail: archtwo@mail.com</p>
         <p>Address: 3399 Wines Lane TX</p>
         <p>Phone: 832-123-4321</p>
-        <a href="">View on Map <img src="./assets/icons/icon-arrow-black.svg" alt="icon-arrow" stroke="black"></a>
+        <a href="#">View on Map <img src="./assets/icons/icon-arrow-black.svg" alt="icon-arrow" stroke="black"></a>
       </div>
     </div>
     <!--location map-->
@@ -84,21 +84,27 @@
         <h2>Connect with us</h2>
       </div>
       <div class="contact-form">
-        <form>
+        <div id="error"></div>
+        <form id="form" name="contactForm">
           <div class="form-section">
-            <input type="text" name="name" required>
+            <input id="name" type="text" name="name" class="inputField" required autocomplete="off"
+            oninvalid="this.setCustomValidity(`Can't be empty`)"
+  oninput="this.setCustomValidity('')">
             <label for="name" class="label">
               <span class="form-content">Name</span>
             </label>
           </div>
           <div class="form-section">
-            <input type="email" pattern="*@*" name="email" required>
+            <input id="email" type="email" pattern="*@*" name="email" required autocomplete="off"
+            oninvalid="this.setCustomValidity(`Please use a valid email address`)" oninput="this.setCustomValidity('')">
             <label for="email" class="label">
               <span class="form-content">Email</span>
             </label>
           </div>
-          <div class="form-section">
-            <input type="text" name="message" required>
+          <div class="form-section formMsg">
+            <input id="message" type="text" name="message" required autocomplete="off"
+            oninvalid="this.setCustomValidity(`Can't be empty`)"
+  oninput="this.setCustomValidity('')">
             <label for="message" class="label">
               <span class="form-content">Message</span>
             </label>
@@ -124,5 +130,7 @@
     </div>
     <a href="portfolio.html" class="button-link">See Our Portfolio <img src="./assets/icons/icon-arrow.svg" alt="icon-arrow"></a>
   </footer>
+
+  <!--<script src="./src/scripts/contact.js"></script>-->
 </body>
 </html>

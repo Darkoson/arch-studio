@@ -284,7 +284,7 @@ html, body {
     margin: 19px 0px;
 }
 
-.form-section:last-child {
+.formMsg{
     margin-top: 70px;
 }   
 
@@ -293,7 +293,6 @@ html, body {
     height: 100%;
     border: none;
     color: #1B1D23;
-    /* background-color: #1B1D23; */
     outline: none;
     font-family: "Spartan";
     font-style: normal;
@@ -304,12 +303,14 @@ html, body {
 }
 
 .form-section label {
+    content: '';
     position: absolute;
-    height: 22px;
-    left: 4.72%;
-    right: 85%;
-    top: calc(50% - 22px/2 - 12.5px);
     bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #1B1D23;
     font-family: "Spartan";
     font-style: normal;
     font-weight: bold;
@@ -317,17 +318,57 @@ html, body {
     line-height: 22px;
     letter-spacing: -0.3125px;
     color: #C8CCD8;
-    border-bottom: 1px solid #1B1D23;
+}
+
+/* .form-section label::after {
+    content: '';
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
     width: 100%;
+    border-bottom: 3px solid #1B1D23;
+    transition: transform 0.3s ease-in-out;
+}    */
+
+.form-content {
+    position: absolute;
+    /* bottom: 10px; */
+    left: 0px;
+    transition: all 0.3s ease;
+    color: #C8CCD8;
+    font-size: 20px;
 }
 
 #submit-button {
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 86.5%;
-    top: 58%;
+    left: 82.4%;
+    /* top: 80%; */
     background: #1B1D23;
     cursor: pointer;
     border: none;
+    margin-top: -18.6px;
 }
+
+
+/* Hover States */
+#submit-button:hover {
+    background: #60636D;
+    transition: 0.3s ease-in-out;
+}
+
+/* .form-section input:focus + .label .content-form,
+.form-section input:valid + .label .content-form {
+  opacity: 0;
+}
+
+.form-section input:focus + .label::after,
+.form-section input:valid + .label::after {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+} */
+
+ 
