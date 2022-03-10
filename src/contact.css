@@ -229,11 +229,11 @@ html, body {
     margin-left: 9.5em;
 }
 
-.image-map {
-    background-image: url("../assets/contact/desktop/image-map.png");
+#map {
+    /* background-image: url("../assets/contact/desktop/image-map.png");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     width: 80vw;
     height: 631px;
     /* top: 1450px; */
