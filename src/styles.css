@@ -66,7 +66,7 @@
 
 
 
-.slide{
+/*.slide{
     background-image: url("../assets/home/desktop/image-hero-paramour.jpg");
     background-color: rgba(0, 0, 0, 0.445);
     background-blend-mode: overlay;
@@ -286,7 +286,136 @@
     bottom: 28px;
     justify-content: center;
     display: flex;
+}*/
+
+.img-slider{
+    position: absolute;
+    width: 1110px;
+    height: 720px;
+    margin-top: 152px;
+    margin-left: 162px;
+    margin-bottom: 28px;
+    background: #1d1c1c;
 }
+
+.img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+    
+    
+}
+
+.img-slider .slide.active{
+    clip-path: circle(150% at 0 50%);
+    
+    
+}
+
+.img-slider .slide img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+    
+    
+}
+
+.img-slider .slide .info{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background: rgba(0, 0, 0, 0.01);
+    width: 75%;
+    height: 75%;
+    
+}
+
+.img-slider .slide .info h2{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 80px;
+    width: 70%;
+}
+
+.img-slider .slide .info p{
+    color: #fff;
+    font-size: 16px;
+    width: 60%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+
+.img-slider .slide .info a{
+    background: #1d1c1c;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    width: 60px;
+    height: 60px;
+    padding: 20px 30px;
+}
+
+
+.img-slider .slide .info img{
+    width: 30px;
+    margin-left:  20px;
+    margin-bottom: -5px;
+}
+
+.img-slider .slide .info a:hover{
+    background-color: #7D828F;
+}
+
+.img-slider .navigation{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 5%;
+    top: 90%;
+    transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn{
+    background: rgba(255, 255, 255, 1);
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+
+
+.img-slider .navigation .btn p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    color: #1d1c1c;
+    font-weight: 700;
+}
+
+.img-slider .navigation .btn p:hover{
+    color: #fff;
+}
+
+.img-slider .navigation .btn p:active{
+    color: #fff;
+}
+
+.img-slider .navigation .btn:hover{
+    background-color: #424141;
+    color: #fff;
+}
+
+.img-slider .navigation .btn:active{
+    background-color: #1d1c1c;
+}
+
 
 
 /*Welcome*/

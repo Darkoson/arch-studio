@@ -26,43 +26,87 @@
     <p>HOME</p>
   </div>
 
-  <section class="slide">
-    <div class="slide_1">
-      <h3>Project Paramour</h3> 
-    </div>
-    <div class="slide_note">
-        <p>Project made for an art musuem near Southwest London. Project Paramour is a statement of bold modern architecture</p>
-    </div>
 
-    <div class="profile_note">
-        <a href="portfolio.html">See Our Portfolio <img src="./assets/icons/icon-arrow.svg"></a>
-
-    </div>
-</section>
-
-<section class="rectangle">
-  <div class="rectangle_1">
-    <a>01</a>
+<div class="img-slider">
+  <div class="slide active">
+      <img src="./assets/home/desktop/image-hero-paramour.jpg" alt="">
+  
+      <div class="info">
+          <h2>Project Paramour</h2>
+          <p>Project made for an art museum near Southwest London. Project Paramour is a statment of bold, modern architecture</p>
+          <a href="portfolio.html">See Our Portfolio <img src="./assets/icons/icon-arrow.svg"></a>
+      </div>
   </div>
 
-  <div class="rectangle_2">
-    <a>02</a>
+  <div class="slide">
+      <img src="./assets/home/desktop/image-hero-seraph.jpg" alt="">
+  
+      <div class="info">
+          <h2>Seraph Station</h2>
+          <p>The Seraph Station project challenged us to design a unique station that would transport people through time. The result is a fresh and futuristic model inspired by space stations</p>
+          <a href="portfolio.html">See Our Portfolio <img src="./assets/icons/icon-arrow.svg"></a>
+      </div>
   </div>
 
-  <div class="rectangle_3">
-    <a>03</a>
+   <div class="slide">
+      <img src="./assets/home/desktop/image-hero-federal.jpg" alt="">
+  
+      <div class="info">
+          <h2>Federal II Tower</h2>
+          <p>A sequel theme project for a tower originally built in the 1800s. We achieved this a striking look of brutal minimalism with morden touches.</p>
+          <a href="portfolio.html">See Our Portfolio <img src="./assets/icons/icon-arrow.svg"></a>
+      </div>
   </div>
 
-  <div class="rectangle_4">
-    <a>04</a>
+  <div class="slide">
+      <img src="./assets/home/desktop/image-hero-trinity.jpg" alt="">
+  
+      <div class="info">
+          <h2>Trinity Bank Tower</h2>
+          <p>Trinity Banl challenged us to make a concept of a 84 story building located in the middle of a city with a high earthquake frequency. For this project we used curves to blend design and stability to meet our objectives</p>
+          <a href="portfolio.html">See Our Portfolio <img src="./assets/icons/icon-arrow.svg"></a>
+      </div>
   </div>
 
-</section>
+  <div class="navigation">
+      <div class="btn active"><p>01</p></div>
+      <div class="btn"><p>02</p></div>
+      <div class="btn"><p>03</p></div>
+      <div class="btn"><p>04</p></div>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+  var slides = document.querySelectorAll('.slide');
+  var btns = document.querySelectorAll('.btn');
+  let currentSlide = 1;
+  var manualNav = function(manual){
+      slides.forEach((slide) => {
+          slide.classList.remove('active');
+
+          btns.forEach((btn) => {
+              btn.classList.remove('active')
+          });
+      });
+
+
+      slides[manual].classList.add('active');
+      btns[manual].classList.add('active');
+  }
+
+  btns.forEach((btn, i) =>{
+      btn.addEventListener("click", () => {
+          manualNav(i);
+          currentSlide = i;
+      });
+  });
+</script>
 
 <div class="welcome">
 </div>
 
-<section>  
+ 
   <div class="welcome_1">
     <h1>Welcome</h1>
   </div>
@@ -76,11 +120,6 @@
       Over the past 10 years, we have worked on all kinds of projects. From stations to high-rise buildings, we create spaces that inspire and delight.
       We work closely with our clients so that we understand the intricacies of each project. This allows us to work in harmony the surrounding area to create truly stunning projects that will stand the test of time.</p>
   </div>
-</section>
-
-<section>
-
-</section>
 
 <section class="smallteam">
   <div class="smallteam_1">
