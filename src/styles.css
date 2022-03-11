@@ -542,7 +542,7 @@ footer {
     position: absolute;
     /* bottom: 0; */
     display: flex;
-    top: 3491px;
+    /*top: 3491px;*/
 }
 .footer-logo {
     position: absolute;
