@@ -831,101 +831,53 @@
     }
     .social-media{
         position: absolute;
-        top: 446%;
-        height: 40rem;
+        top: 480%;
+        height: 80rem;
         width: 55%;
         visibility: visible;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        border: 1px solid greenyellow;
+        margin-left: 1.8em;
     }
     .first-column-social{
-        height: 20%;
+        height: 36.5%;
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     .second-column-social{
-        height: 20%;
+        height: 36.1%;
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     .left-socials{
-        height: 50%;
-        width: 23%;
+        height: 11%;
+        width: 50%;
         display: flex;
         justify-content: space-between;
     }
     
     .right-socials{
-        height: 50%;
-        width: 23%;
+        height: 11%;
+        width: 50%;
         display: flex;
         justify-content: space-between;
     }
+    .hover-jake{
+        display: none;
+    }
+    .hover-smith{
+        display: none;
+    }
+    .hover-jackson{
+        display: none;
+    }
+    .hover-maria{
+        display: none;
+    }
 
 }
-
-/* @media screen and (max-width: 280px){
-    .hero-image{
-        visibility: visible;
-        position: absolute;
-        width: 70%;
-        height: 30%;
-        background-color: #07060670;
-        background-image: url(../assets/about/mobile/image-hero.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode: overlay;
-    }
-    .hero-section-about{
-       visibility: hidden;
-    }
-    .hero-section-about h1{
-        visibility: hidden;
-    }
-    .hero-rep-wrap-text{
-        position: absolute;
-        width: 90%;
-        height: 79vh;
-        top: 65%;
-        background-color: #FFFFFF;
-        margin-left: -2.3rem;
-    }
-    .hero-rep-wrap-text hr{
-        visibility: hidden;
-    }
-    .hero-rep-wrap-text-top{
-        height: 21vh;
-        width: 100%;
-        margin-right: 2.5em;
-    }
-    .hero-rep-wrap-text-top h2{
-        font-family: Spartan;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 2.26rem;
-        line-height: 120%;
-        letter-spacing: -2px;
-        color: #1B1D23;
-        margin-left: 2rem;
-    }
-    .hero-rep-wrap-text-bottom{
-        position: absolute;
-        height: 45%;
-        width: 90%;
-        top: 43%;
-        margin-left: 10%;
-    }
-    .hero-rep-wrap-text-bottom p{
-        font-family: Spartan;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 0.9em;
-        line-height: 25px;
-        color: #60636D;
-    }
-    
-} */
