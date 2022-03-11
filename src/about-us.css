@@ -737,4 +737,195 @@
     .heritage-image{
        display: none;
     }
+
+    .leaders-section{
+        width: 100%;
+        height: 108rem;
+        margin-left: 0em;
+        margin-bottom: 10em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .leaders-title{
+        height: 21vh;
+        width: 60%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.7rem;
+        line-height: 150%;
+        letter-spacing: -2px;
+        color: #1B1D23;
+        margin-left: 1em;
+    }
+    .leaders-image{
+        height: 98rem;
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .leaders-top-images{
+        width: 100%;
+        height: 47em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+    .leaders-text-image-wrapper{
+        height: 21.5rem;
+        width: 100%;
+    }
+    .leaders-jake-image{
+        height: 18rem;
+        width: 100%;
+    }
+    
+    .leaders-Smith-image{
+        height: 18rem;
+        width: 100%;
+    }
+    .leaders-text-top{
+        height: 5vh;
+        width: 100%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.9rem;
+        line-height: 25px;
+        color: #1B1D23;
+        margin-top: 1em;
+    }
+    .leaders-text-bottom{
+        height: 5vh;
+        width: 100%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9rem;
+        line-height: 25px;
+        color: #1B1D23;
+        mix-blend-mode: normal;
+        opacity: 0.98;
+    }
+    .leaders-bottom-images{
+        width: 100%;
+        height: 47em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+    .leaders-Jackson-image{
+        height: 18rem;
+        width: 100%;
+    }
+    
+    .leaders-Maria-image{
+        height: 18rem;
+        width: 100%;
+    }
+    .social-media{
+        position: absolute;
+        top: 446%;
+        height: 40rem;
+        width: 55%;
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid greenyellow;
+    }
+    .first-column-social{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .second-column-social{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-socials{
+        height: 50%;
+        width: 23%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .right-socials{
+        height: 50%;
+        width: 23%;
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
+
+/* @media screen and (max-width: 280px){
+    .hero-image{
+        visibility: visible;
+        position: absolute;
+        width: 70%;
+        height: 30%;
+        background-color: #07060670;
+        background-image: url(../assets/about/mobile/image-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+    }
+    .hero-section-about{
+       visibility: hidden;
+    }
+    .hero-section-about h1{
+        visibility: hidden;
+    }
+    .hero-rep-wrap-text{
+        position: absolute;
+        width: 90%;
+        height: 79vh;
+        top: 65%;
+        background-color: #FFFFFF;
+        margin-left: -2.3rem;
+    }
+    .hero-rep-wrap-text hr{
+        visibility: hidden;
+    }
+    .hero-rep-wrap-text-top{
+        height: 21vh;
+        width: 100%;
+        margin-right: 2.5em;
+    }
+    .hero-rep-wrap-text-top h2{
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.26rem;
+        line-height: 120%;
+        letter-spacing: -2px;
+        color: #1B1D23;
+        margin-left: 2rem;
+    }
+    .hero-rep-wrap-text-bottom{
+        position: absolute;
+        height: 45%;
+        width: 90%;
+        top: 43%;
+        margin-left: 10%;
+    }
+    .hero-rep-wrap-text-bottom p{
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9em;
+        line-height: 25px;
+        color: #60636D;
+    }
+    
+} */
