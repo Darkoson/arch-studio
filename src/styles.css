@@ -18,8 +18,8 @@
 
 .nav-links {
     position: absolute;
-    left: 20%;
-    top: 56px;
+    left: 24%;
+    top: 70px;
     
 }
 
@@ -763,6 +763,8 @@
 
 /*Footer*/
 footer {
+    position: absolute;
+    /* bottom: 0; */
     display: flex;
 }
 .footer-logo {
@@ -770,7 +772,8 @@ footer {
     width: 200px;
     height: 200px;
     left: 165px;
-    top: 3491px;
+    top: 0;
+    /* bottom: 0px; */
     background: #1B1D23;
     display: flex;
     justify-content: center;
@@ -785,10 +788,11 @@ footer {
 
 .footer-nav {
     position: absolute;
-    width: 784px;
+    width: 684px;
     height: 200px;
     left: 365px;
-    top: 3491px;
+    top: 0;
+    /* bottom: 0px; */
     background: #EEEFF4;
     display: flex;
     align-items: center;
@@ -812,8 +816,9 @@ footer {
     position: absolute;
     width: 252px;
     height: 72px;
-    left: 1023px;
-    top: 3555px;
+    left: 923px;
+    top: 65px;
+    bottom: 60px;
     background: #1B1D23;
     font-family: 'Spartan';
     font-style: normal;
