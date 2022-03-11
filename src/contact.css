@@ -210,6 +210,7 @@ html, body {
     line-height: 25px;
     text-align: right;
     display: flex;
+    cursor: pointer;
 }
 
 .contact-office a img {
@@ -238,6 +239,10 @@ html, body {
     height: 631px;
     /* top: 1450px; */
 }
+
+.dark-blue {
+    color: #1B1D23;
+  }
 
 .contact-form-container {
     /* position: absolute; */
