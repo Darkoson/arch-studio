@@ -737,4 +737,147 @@
     .heritage-image{
        display: none;
     }
+
+    .leaders-section{
+        width: 100%;
+        height: 108rem;
+        margin-left: 0em;
+        margin-bottom: 10em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .leaders-title{
+        height: 21vh;
+        width: 60%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.7rem;
+        line-height: 150%;
+        letter-spacing: -2px;
+        color: #1B1D23;
+        margin-left: 1em;
+    }
+    .leaders-image{
+        height: 98rem;
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .leaders-top-images{
+        width: 100%;
+        height: 47em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+    .leaders-text-image-wrapper{
+        height: 21.5rem;
+        width: 100%;
+    }
+    .leaders-jake-image{
+        height: 18rem;
+        width: 100%;
+    }
+    
+    .leaders-Smith-image{
+        height: 18rem;
+        width: 100%;
+    }
+    .leaders-text-top{
+        height: 5vh;
+        width: 100%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.9rem;
+        line-height: 25px;
+        color: #1B1D23;
+        margin-top: 1em;
+    }
+    .leaders-text-bottom{
+        height: 5vh;
+        width: 100%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9rem;
+        line-height: 25px;
+        color: #1B1D23;
+        mix-blend-mode: normal;
+        opacity: 0.98;
+    }
+    .leaders-bottom-images{
+        width: 100%;
+        height: 47em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+    .leaders-Jackson-image{
+        height: 18rem;
+        width: 100%;
+    }
+    
+    .leaders-Maria-image{
+        height: 18rem;
+        width: 100%;
+    }
+    .social-media{
+        position: absolute;
+        top: 480%;
+        height: 80rem;
+        width: 55%;
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 1.8em;
+    }
+    .first-column-social{
+        height: 36.5%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .second-column-social{
+        height: 36.1%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .left-socials{
+        height: 11%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .right-socials{
+        height: 11%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hover-jake{
+        display: none;
+    }
+    .hover-smith{
+        display: none;
+    }
+    .hover-jackson{
+        display: none;
+    }
+    .hover-maria{
+        display: none;
+    }
+
 }

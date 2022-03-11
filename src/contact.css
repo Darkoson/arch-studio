@@ -345,7 +345,9 @@ html, body {
     color: #C8CCD8;
     font-size: 20px;
 }
-
+input::placeholder {
+    color: #C8CCD8;
+}
 #submit-button {
     position: absolute;
     width: 80px;
