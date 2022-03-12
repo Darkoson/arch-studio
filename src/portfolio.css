@@ -1,56 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Spartan;
+  margin: 0px;
+  padding: 0px;
+  font-family: Spartan;
 }
 
 
 .heading {
     /* Group 16 */
 
-    position: absolute;
-    width: 25px;
-    height: 386px;
-    left: 64px;
-    top: 0px;
+  position: absolute;
+  width: 25px;
+  height: 386px;
+  left: 64px;
+  top: 0px;
     /*margin-top: 4%;*/
-    }
+}
 
 /* PORTFOLIO */
-h2 {
-    position: absolute;
-    height: 25px;
-    left: -1010%;
-    right: -900%;
-    top: calc(99% - 25px/2 - 28.5px);
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    
-    /* identical to box height, or 167% */
-    letter-spacing: 15px;
-
-    color: #C8CCD8;
-
-    transform: rotate(90deg);
-
-    /* Rectangle */
+.portfolio-banner{
+  position: absolute;
+  top: 193px;
+  left: -125px;
+  height: 4vh;
+  width: 30vw;
+  transform: rotate(90deg);
 }
-h5 {
-    position: absolute;
-    height: 80px;
-    width: 1px;
-    left: 6px;
-    top: 0px;
-    border-radius: 0px;
-
-
-    background: #C8CCD8;
-    
-
+.portfolio-banner p{
+  letter-spacing: 15px;
+  color: #C8CCD8;
+  font-size: 14px;
+  padding-left: 120px;
+  padding-top: 1.5px;
+  font-family: Spartan;
+}
+.portfolio-banner hr{
+  position: absolute;
+  top: 7px;
+  height: 1px;
+  width: 7rem;
 }
 
   
@@ -67,14 +56,10 @@ h5 {
     "div10 div11 div12";
     width: 68em; 
     height: 145em;
-    margin: 0 auto;
-    justify-content: center;
-    
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 200px;
-    }
+    margin-top: 10em;
+    margin-left: 10em;
+    margin-bottom: 10em;
+}
         
  
 .div1 {
@@ -142,11 +127,11 @@ h5 {
     }
 
 .div10 { 
-    grid-area: div10;
-    background-image: url('../assets/portfolio/desktop/image-sxiv.jpg'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
+  grid-area: div10;
+  background-image: url('../assets/portfolio/desktop/image-sxiv.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
     
 
 .div11 { 
