@@ -86,7 +86,6 @@ h5 {
 .div1:hover
     {
       opacity: 0.6;
-      filter: alpha(opacity=30);
       cursor: pointer;
     }
 
@@ -139,7 +138,6 @@ h5 {
 }.div5:hover
 {
   opacity: 0.6;
-  filter: alpha(opacity=30);
   cursor: pointer;
 }
 
@@ -167,7 +165,6 @@ h5 {
 .div7:hover
     {
       opacity: 0.6;
-      filter: alpha(opacity=30);
       cursor: pointer;
     }
 
@@ -181,7 +178,6 @@ h5 {
 .div8:hover
     {
       opacity: 0.6;
-      filter: alpha(opacity=30);
       cursor: pointer;
     }
 
@@ -194,7 +190,6 @@ h5 {
 .div9:hover
     {
       opacity: 0.6;
-      filter: alpha(opacity=30);
       cursor: pointer;
     }
 
@@ -208,7 +203,6 @@ h5 {
   .div10:hover
   {
     opacity: 0.6;
-    filter: alpha(opacity=30);
     cursor: pointer;
   }
 
@@ -221,7 +215,6 @@ h5 {
 .div11:hover
     {
       opacity: 0.6;
-      filter: alpha(opacity=30);
       cursor: pointer;
     }
 
@@ -235,7 +228,6 @@ h5 {
 .div12:hover
     {
       opacity: 0.6;
-      filter: alpha(opacity=30);
       cursor: pointer;
     }
 
@@ -264,7 +256,7 @@ p {
 }
 
 /*Tablet Section*/
-/*@media screen and (max-width: 768px)
+@media screen and (max-width: 768px){
 .container1 {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -289,174 +281,175 @@ p {
   
   .pic1 { 
       grid-area: pic1; 
-      background-image: url('../assets/portfolio/mobile/image-seraph.jpg');
+      background-image: url('../assets/portfolio/tablet/image-seraph.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
     }
   
   .pic2 { grid-area: pic2;
-    background-image: url('../assets/portfolio/mobile/image-eebox.jpg');
+    background-image: url('../assets/portfolio/tablet/image-eebox.jpg');
     background-size: cover;
     background-repeat: no-repeat;
      }
   
   .pic3 { grid-area: pic3; 
-    background-image: url('../assets/portfolio/mobile/image-federal.jpg');
+    background-image: url('../assets/portfolio/tablet/image-federal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic4 { grid-area: pic4; 
-    background-image: url('../assets/portfolio/mobile/image-del-sol.jpg');
+    background-image: url('../assets/portfolio/tablet/image-del-sol.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic5 { grid-area: pic5; 
-    background-image: url('../assets/portfolio/mobile/image-prototype.jpg');
+    background-image: url('../assets/portfolio/tablet/image-prototype.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic6 { grid-area: pic6; 
-    background-image: url('../assets/portfolio/mobile/image-228b.jpg');
+    background-image: url('../assets/portfolio/tablet/image-228b.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic7 { grid-area: pic7; 
-    background-image: url('../assets/portfolio/mobile/image-edelweiss.jpg');
+    background-image: url('../assets/portfolio/tablet/image-edelweiss.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic8 { grid-area: pic8; 
-    background-image: url('../assets/portfolio/mobile/image-netcry.jpg');
+    background-image: url('../assets/portfolio/tablet/image-netcry.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic9 { grid-area: pic9; 
-    background-image: url('../assets/portfolio/mobile/image-hypers.jpg');
+    background-image: url('../assets/portfolio/tablet/image-hypers.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic10 { grid-area: pic10; 
-    background-image: url('../assets/portfolio/mobile/image-sxiv.jpg');
+    background-image: url('../assets/portfolio/tablet/image-sxiv.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic11 { grid-area: pic11; 
-    background-image: url('../assets/portfolio/mobile/image-trinity.jpg');
+    background-image: url('../assets/portfolio/tablet/image-trinity.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic12 { grid-area: pic12; 
-    background-image: url('../assets/portfolio/mobile/image-paramour.jpg');
+    background-image: url('../assets/portfolio/tablet/image-paramour.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }*/
+    }
+  }
 
 /*Mobile Section*/
-/*@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
 .container1 {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 14px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "pic1"
-      "pic2"
-      "pic3"
-      "pic4"
-      "pic5"
-      "pic6"
-      "pic7"
-      "pic8"
-      "pic9"
-      "pic10"
-      "pic11"
-      "pic12";
+      "div1"
+      "div2"
+      "div3"
+      "div4"
+      "div5"
+      "div6"
+      "div7"
+      "div8"
+      "div9"
+      "div10"
+      "div11"
+      "div12";
     width: 10em;
     height: 100em;
   }
   
-  .pic1 { 
-      grid-area: pic1; 
+  .div1 { 
+      grid-area: div1; 
       background-image: url('../assets/portfolio/mobile/image-seraph.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
     }
   
-  .pic2 { grid-area: pic2;
+  .div2 { grid-area: div2;
     background-image: url('../assets/portfolio/mobile/image-eebox.jpg');
     background-size: cover;
     background-repeat: no-repeat;
      }
   
-  .pic3 { grid-area: pic3; 
+  .div3 { grid-area: div3; 
     background-image: url('../assets/portfolio/mobile/image-federal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
-  .pic4 { grid-area: pic4; 
+  .div4 { grid-area: div4; 
     background-image: url('../assets/portfolio/mobile/image-del-sol.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
-  .pic5 { grid-area: pic5; 
+  .div5 { grid-area: div5; 
     background-image: url('../assets/portfolio/mobile/image-prototype.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
-  .pic6 { grid-area: pic6; 
+  .div6 { grid-area: div6; 
     background-image: url('../assets/portfolio/mobile/image-228b.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
-  .pic7 { grid-area: pic7; 
+  .div7 { grid-area: div7; 
     background-image: url('../assets/portfolio/mobile/image-edelweiss.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
-  .pic8 { grid-area: pic8; 
+  .div8 { grid-area: div8; 
     background-image: url('../assets/portfolio/mobile/image-netcry.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
-  .pic9 { grid-area: pic9; 
+  .div9 { grid-area: div9; 
     background-image: url('../assets/portfolio/mobile/image-hypers.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
-  .pic10 { grid-area: pic10; 
+  .div10 { grid-area: div10; 
     background-image: url('../assets/portfolio/mobile/image-sxiv.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
-  .pic11 { grid-area: pic11; 
+  .div11 { grid-area: div11; 
     background-image: url('../assets/portfolio/mobile/image-trinity.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
-  .pic12 { grid-area: pic12; 
+  .div12 { grid-area: div12; 
     background-image: url('../assets/portfolio/mobile/image-paramour.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
-  }*/
+  }
   
