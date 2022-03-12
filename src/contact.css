@@ -348,9 +348,8 @@ html, body {
     height: 631px;
     /* left: 165px; */
     /* right: 165px; */
-    margin-bottom: 9.5em;
-    margin-top: 9.5em;
-    margin-left: 9.5em;
+    margin: 9.5em;
+    right: unset;
 }
 
 #map {
@@ -373,8 +372,10 @@ html, body {
     /* top: 2172px; */
     margin-bottom: 9.5em;
     margin-left: 9.5em;
-    width: 80vw;
-    height: 300px;
+    margin-right: 9.5em;
+    width: 100%;
+    max-width: 1100px;
+    height: 350px;
 }
 
 .form-title {
@@ -400,8 +401,13 @@ html, body {
 
 .contact-form {
     width: 730px;
-    height: 356px;
+    height: 350px;
     /* position: relative; */
+}
+
+#form {
+    width: 730px;
+    height: 350px;
 }
 
 .form-section {
@@ -431,7 +437,6 @@ html, body {
 }
 
 .form-section label {
-    content: '';
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -448,18 +453,6 @@ html, body {
     color: #C8CCD8;
 }
 
-/* .form-section label::after {
-    content: '';
-    visibility: hidden;
-    position: absolute;
-    left: 0px;
-    bottom: -1px;
-    height: 100%;
-    width: 100%;
-    border-bottom: 3px solid #1B1D23;
-    transition: transform 0.3s ease-in-out;
-}    */
-
 .form-content {
     position: absolute;
     /* bottom: 10px; */
@@ -470,10 +463,10 @@ html, body {
 }
 
 #submit-button {
-    position: absolute;
+    position: relative;
     width: 80px;
     height: 80px;
-    left: 82.4%;
+    left: 89%;
     /* top: 80%; */
     background: #1B1D23;
     cursor: pointer;
@@ -488,15 +481,54 @@ html, body {
     transition: 0.3s ease-in-out;
 }
 
-/* .form-section input:focus + .label .content-form,
-.form-section input:valid + .label .content-form {
-  opacity: 0;
+@media only screen and (max-width: 1200px) {
+    .contact-form-container {
+        /* position: absolute; */
+        display: block;
+        /* top: 2172px; */
+        margin: 9.5em;
+        width: 80%;
+        height: 300px;
+    }
+    
+    .form-title {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100px;
+        /* height: 300px; */
+    }
+    
+    .form-title h2 {
+        width: 100%;
+        height: 100px;
+        font-family: "Spartan";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2px;
+        color: #1B1D23;
+        margin: 0;
+    }
+    
+    .contact-form {
+        width: 90%;
+        height: 356px;
+        /* position: relative; */
+    }
+
+    #form {
+        width: 90%;
+        height: 356px;
+    }
+
+    #submit-button {
+        position: relative;
+        left: 90%;
+        right: 10%;
+        /* top: 80%; */
+    }
 }
-
-.form-section input:focus + .label::after,
-.form-section input:valid + .label::after {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-} */
-
  
