@@ -41,21 +41,20 @@ html, body {
 }
 
 .upper-section {
-    margin-top: 9.5em;
-    width: 100%;
-    margin-right: none;
-    height: 720px;
+    max-width: 80%;
+    margin: 9.5em auto; 
+    min-height: 720px;
     display: flex;
     flex-direction: row;
     /* position: relative; */
-    margin-bottom: 9.5em;
 } 
 
 .image-hero-section {
+    position: relative;
     height: 720px;
-    width: 70vw;
+    width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .image-hero {
     /* left: 165px;
@@ -66,7 +65,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    width: 47vw;
+    width: 100%;
     height: 720px;
     z-index: 0;
 }
@@ -75,7 +74,8 @@ html, body {
     position: absolute;
     width: 60vw;
     height: 720px;
-    left: 32%;
+    right: 9%;
+    /* left: 32%; */
     /* bottom: 0px; */
     /* top: 25%; */
     /* background: #FFFFFF;  */
@@ -93,7 +93,7 @@ html, body {
     font-family: "Spartan";
     font-style: normal;
     font-weight: bold;
-    font-size: 11.5rem;
+    font-size: 12.5rem;
     line-height: 200px;
     text-align: right;
     letter-spacing: -5px;
@@ -147,11 +147,92 @@ html, body {
     margin: 0;
 }
 
+/* Media Queries */
+@media only screen and (max-width: 1100px) {
+    .contact-header h1 {
+        font-size: 120px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    nav {
+        max-width: 100%;
+    }
+
+    .image-hero-section {
+        width: 100%;
+    }
+
+    .image-hero {
+        /* left: 165px;
+        top: 152px;
+        bottom: auto; */
+        background-image: url("../assets/contact/tablet/image-hero.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 720px;
+        z-index: 0;
+    }
+
+    /* .image-hero {
+        width: 100%;
+        height: 720px;
+        position: absolute;
+    } */
+
+    .contact-header {
+        top: 25%;
+    }
+
+    .contact-header h1 {
+        font-size: 120px;
+    }
+
+    .section-text {
+        width: 623px;
+    }
+
+    .project-text {
+        width: 100%;
+        height: 60%;
+        top: 40%;
+        left: unset;
+        right: 0;
+        bottom: 0;
+        /* float: left; */
+    }
+
+    .project-text-top {
+        position: absolute;
+        width: 60%;
+        /* height: 21vh;
+        left: 20%; */
+        top: 40%;
+        right: unset;
+        left: 20%;
+        bottom: 0;
+    } 
+
+    .project-text-bottom {
+        position: absolute;
+        width: 60%;
+        /* height: 100px; */
+        left: 20%;
+        right: unset;
+        top: 70%;
+        bottom: 0;
+    }
+}
+
 .contact-details-container {
     /* position: absolute; */
     margin: 0px 9.5em;
     margin-bottom: 9.5em;
     width: 100%;
+    max-width: 1110px;
     height: 212px;
     /* left: 165px; */
     /* top: 1050px; */
