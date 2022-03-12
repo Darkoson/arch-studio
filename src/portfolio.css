@@ -1,24 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Spartan;
+  margin: 0px;
+  padding: 0px;
+  font-family: Spartan;
 }
 
 
 .heading {
     /* Group 16 */
 
-    position: absolute;
-    width: 25px;
-    height: 386px;
-    left: 64px;
-    top: 0px;
-    /*margin-top: 4%;*/
-    }
+  position: absolute;
+  width: 25px;
+  height: 386px;
+  left: 64px;
+  top: 0px;
+}
 
 /* PORTFOLIO */
+.portfolio-banner{
+  position: absolute;
+  top: 193px;
+  left: -125px;
+  height: 4vh;
+  width: 30vw;
+  transform: rotate(90deg);
+}
+.portfolio-banner p{
+  letter-spacing: 15px;
+  color: #C8CCD8;
+  font-size: 14px;
+  padding-left: 120px;
+  padding-top: 1.5px;
+  font-family: Spartan;
+}
+.portfolio-banner hr{
+  position: absolute;
+  top: 7px;
+  height: 1px;
+  width: 7rem;
+}
 h2 {
     position: absolute;
     height: 25px;
@@ -40,17 +61,13 @@ h2 {
     /* Rectangle */
 }
 h5 {
-    position: absolute;
-    height: 100px;
-    width: 1px;
-    left: 6px;
-    top: 0px;
-    border-radius: 0px;
-
-
-    background: #C8CCD8;
-    
-
+  position: absolute;
+  height: 100px;
+  width: 1px;
+  left: 6px;
+  top: 0px;
+  border-radius: 0px;
+  background: #C8CCD8;
 }
 
   
@@ -65,16 +82,13 @@ h5 {
     "div4 div5 div6"
     "div7 div8 div9"
     "div10 div11 div12";
-    width:  59em/*68em*/;
-    height: 140em/*145em*/;
-    margin: 0 auto;
-    /*justify-content: center;*/
-    
-    margin-top: 130px;
-    /*margin-left: 100px;
-    margin-right: 100px;*/
-    margin-bottom: 100px;
-    }
+    width: 68em; 
+    height: 145em;
+    margin-top: 10em;
+    margin-left: 10em;
+    margin-bottom: 10em;
+}
+
         
  
 .div1 {
@@ -357,10 +371,10 @@ p {
 /*Mobile Section*/
 @media screen and (max-width: 375px) {
 .container1 {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 14px 0px;
-    grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 14px 0px;
+  grid-auto-flow: row;
     grid-template-areas:
       "div1"
       "div2"
@@ -374,59 +388,65 @@ p {
       "div10"
       "div11"
       "div12";
-    width: 10em;
-    height: 100em;
-  }
+  width: 10em;
+  height: 100em;
+}
   
   .div1 { 
-      grid-area: div1; 
-      background-image: url('../assets/portfolio/mobile/image-seraph.jpg');
+    grid-area: div1; 
+    background-image: url('../assets/portfolio/mobile/image-seraph.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    
-    }
+  }
   
-  .div2 { grid-area: div2;
+  .div2 { 
+    grid-area: div2;
     background-image: url('../assets/portfolio/mobile/image-eebox.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-     }
+  }
   
-  .div3 { grid-area: div3; 
+  .div3 { 
+    grid-area: div3; 
     background-image: url('../assets/portfolio/mobile/image-federal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+  }
   
-  .div4 { grid-area: div4; 
+  .div4 {
+    grid-area: div4; 
     background-image: url('../assets/portfolio/mobile/image-del-sol.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+  }
   
-  .div5 { grid-area: div5; 
+  .div5 { 
+    grid-area: div5; 
     background-image: url('../assets/portfolio/mobile/image-prototype.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+  }
   
-  .div6 { grid-area: div6; 
+  .div6 { 
+    grid-area: div6; 
     background-image: url('../assets/portfolio/mobile/image-228b.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+  }
   
-  .div7 { grid-area: div7; 
+  .div7 { 
+    grid-area: div7; 
     background-image: url('../assets/portfolio/mobile/image-edelweiss.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+  }
   
-  .div8 { grid-area: div8; 
+  .div8 { 
+    grid-area: div8; 
     background-image: url('../assets/portfolio/mobile/image-netcry.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+  }
   
   .div9 { grid-area: div9; 
     background-image: url('../assets/portfolio/mobile/image-hypers.jpg');
