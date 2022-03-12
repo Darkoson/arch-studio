@@ -40,6 +40,35 @@
   height: 1px;
   width: 7rem;
 }
+h2 {
+    position: absolute;
+    height: 25px;
+    left: -1010%;
+    right: -900%;
+    top: calc(111% - 25px/2 - 28.5px);
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    
+    /* identical to box height, or 167% */
+    letter-spacing: 15px;
+
+    color: #C8CCD8;
+
+    transform: rotate(90deg);
+
+    /* Rectangle */
+}
+h5 {
+  position: absolute;
+  height: 100px;
+  width: 1px;
+  left: 6px;
+  top: 0px;
+  border-radius: 0px;
+  background: #C8CCD8;
+}
 
   
   
@@ -59,6 +88,7 @@
     margin-left: 10em;
     margin-bottom: 10em;
 }
+
         
  
 .div1 {
@@ -67,6 +97,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.div1:hover
+    {
+      opacity: 0.6;
+      cursor: pointer;
+    }
 
 .div2 { 
     grid-area: div2;  
@@ -75,27 +110,51 @@
     background-repeat: no-repeat;
     
 }
+.div2:hover
+    {
+      opacity: 0.6;
+      filter: alpha(opacity=30);
+      cursor: pointer;
+    }
+
 
 .div3 { 
     grid-area: div3;
     background-image: url('../assets/portfolio/desktop/image-federal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}
+.div3:hover
+    {
+      opacity: 0.6;
+      filter: alpha(opacity=30);
+      cursor: pointer;
+}
 
 .div4 { 
     grid-area: div4;
     background-image: url('../assets/portfolio/desktop/image-del-sol.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}
+.div4:hover
+    {
+      opacity: 0.6;
+      filter: alpha(opacity=30);
+      cursor: pointer;
+}
 
 .div5 { 
     grid-area: div5;
     background-image: url('../assets/portfolio/desktop/image-prototype.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}.div5:hover
+{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
 
 .div6 { 
     grid-area: div6; 
@@ -103,19 +162,37 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.div6:hover
+    {
+      opacity: 0.6;
+      filter: alpha(opacity=30);
+      cursor: pointer;
+    }
+
 
 .div7 { 
     grid-area: div7;
     background-image: url('../assets/portfolio/desktop/image-edelweiss.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.div7:hover
+    {
+      opacity: 0.6;
+      cursor: pointer;
     }
+
 
 .div8 { 
     grid-area: div8;
     background-image: url('../assets/portfolio/desktop/image-netcry.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.div8:hover
+    {
+      opacity: 0.6;
+      cursor: pointer;
     }
 
 .div9 { 
@@ -123,29 +200,51 @@
     background-image: url('../assets/portfolio/desktop/image-hypers.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.div9:hover
+    {
+      opacity: 0.6;
+      cursor: pointer;
     }
 
+
 .div10 { 
-  grid-area: div10;
-  background-image: url('../assets/portfolio/desktop/image-sxiv.jpg'); 
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-    
+    grid-area: div10;
+    background-image: url('../assets/portfolio/desktop/image-sxiv.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+  .div10:hover
+  {
+    opacity: 0.6;
+    cursor: pointer;
+  }
 
 .div11 { 
     grid-area: div11;
     background-image: url('../assets/portfolio/desktop/image-trinity.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
+}
+.div11:hover
+    {
+      opacity: 0.6;
+      cursor: pointer;
     }
+
 
 .div12 { 
     grid-area: div12;
     background-image: url('../assets/portfolio/desktop/image-paramour.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
+}
+.div12:hover
+    {
+      opacity: 0.6;
+      cursor: pointer;
     }
+
 
 .text {
     z-index: 10;
@@ -170,8 +269,9 @@ p {
     font-size: 15px;
 }
 
-/*Phone Section*/
-/*.container1 {  display: grid;
+/*Tablet Section*/
+@media screen and (max-width: 768px){
+.container1 {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 14px 0px;
@@ -195,75 +295,181 @@ p {
   
   .pic1 { 
       grid-area: pic1; 
-      background-image: url('../assets/portfolio/mobile/image-seraph.jpg');
+      background-image: url('../assets/portfolio/tablet/image-seraph.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
     }
   
   .pic2 { grid-area: pic2;
-    background-image: url('../assets/portfolio/mobile/image-eebox.jpg');
+    background-image: url('../assets/portfolio/tablet/image-eebox.jpg');
     background-size: cover;
     background-repeat: no-repeat;
      }
   
   .pic3 { grid-area: pic3; 
-    background-image: url('../assets/portfolio/mobile/image-federal.jpg');
+    background-image: url('../assets/portfolio/tablet/image-federal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic4 { grid-area: pic4; 
-    background-image: url('../assets/portfolio/mobile/image-del-sol.jpg');
+    background-image: url('../assets/portfolio/tablet/image-del-sol.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic5 { grid-area: pic5; 
-    background-image: url('../assets/portfolio/mobile/image-prototype.jpg');
+    background-image: url('../assets/portfolio/tablet/image-prototype.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic6 { grid-area: pic6; 
-    background-image: url('../assets/portfolio/mobile/image-228b.jpg');
+    background-image: url('../assets/portfolio/tablet/image-228b.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic7 { grid-area: pic7; 
-    background-image: url('../assets/portfolio/mobile/image-edelweiss.jpg');
+    background-image: url('../assets/portfolio/tablet/image-edelweiss.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic8 { grid-area: pic8; 
-    background-image: url('../assets/portfolio/mobile/image-netcry.jpg');
+    background-image: url('../assets/portfolio/tablet/image-netcry.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic9 { grid-area: pic9; 
-    background-image: url('../assets/portfolio/mobile/image-hypers.jpg');
+    background-image: url('../assets/portfolio/tablet/image-hypers.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic10 { grid-area: pic10; 
-    background-image: url('../assets/portfolio/mobile/image-sxiv.jpg');
+    background-image: url('../assets/portfolio/tablet/image-sxiv.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic11 { grid-area: pic11; 
-    background-image: url('../assets/portfolio/mobile/image-trinity.jpg');
+    background-image: url('../assets/portfolio/tablet/image-trinity.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     }
   
   .pic12 { grid-area: pic12; 
+    background-image: url('../assets/portfolio/tablet/image-paramour.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+  }
+
+/*Mobile Section*/
+@media screen and (max-width: 375px) {
+.container1 {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 14px 0px;
+  grid-auto-flow: row;
+    grid-template-areas:
+      "div1"
+      "div2"
+      "div3"
+      "div4"
+      "div5"
+      "div6"
+      "div7"
+      "div8"
+      "div9"
+      "div10"
+      "div11"
+      "div12";
+  width: 10em;
+  height: 100em;
+}
+  
+  .div1 { 
+    grid-area: div1; 
+    background-image: url('../assets/portfolio/mobile/image-seraph.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .div2 { 
+    grid-area: div2;
+    background-image: url('../assets/portfolio/mobile/image-eebox.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .div3 { 
+    grid-area: div3; 
+    background-image: url('../assets/portfolio/mobile/image-federal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .div4 {
+    grid-area: div4; 
+    background-image: url('../assets/portfolio/mobile/image-del-sol.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .div5 { 
+    grid-area: div5; 
+    background-image: url('../assets/portfolio/mobile/image-prototype.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .div6 { 
+    grid-area: div6; 
+    background-image: url('../assets/portfolio/mobile/image-228b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .div7 { 
+    grid-area: div7; 
+    background-image: url('../assets/portfolio/mobile/image-edelweiss.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .div8 { 
+    grid-area: div8; 
+    background-image: url('../assets/portfolio/mobile/image-netcry.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .div9 { grid-area: div9; 
+    background-image: url('../assets/portfolio/mobile/image-hypers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+  
+  .div10 { grid-area: div10; 
+    background-image: url('../assets/portfolio/mobile/image-sxiv.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+  
+  .div11 { grid-area: div11; 
+    background-image: url('../assets/portfolio/mobile/image-trinity.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+  
+  .div12 { grid-area: div12; 
     background-image: url('../assets/portfolio/mobile/image-paramour.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    }*/
+    }
+  }
   
