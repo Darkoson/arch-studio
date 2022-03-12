@@ -7,19 +7,38 @@
     font-family: Spartan, sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
 /*Navigation*/
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    min-height: 152px;
+    background-color: white;
+    max-width: 1110px;
+    margin: auto;
+    margin-bottom: -150px;
+    padding-left: 40px;
+    /* height: 9.5rem; */
+}
 .logo {
-    position: absolute;
+    /* position: absolute; */
     width: 96.16px;
     height: 40px;
-    left: 164px;
-    top: 56px;
+    /* margin-left: 9.5em; */
+    /* top: 56px; */
 }
 
 .nav-links {
-    position: absolute;
-    left: 24%;
-    top: 70px;
+    /* position: absolute; */
+    margin-left: 5%;
+    /* top: 70px; */
     
 }
 
@@ -539,21 +558,26 @@
 
 /*Footer*/
 footer {
-    position: absolute;
+    box-sizing: content-box;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    max-width: 1110px;
+    margin: 200px auto 0px auto;
+    padding-left: 40px;
     /* bottom: 0; */
     display: flex;
-    /*top: 3491px;*/
 }
 .footer-logo {
-    position: absolute;
+    /* position: absolute; */
     width: 200px;
     height: 200px;
-    left: 165px;
     /* bottom: 0px; */
     background: #1B1D23;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 auto;
 }
 
 .footer-logo img {
@@ -563,20 +587,23 @@ footer {
 }
 
 .footer-nav {
-    position: absolute;
-    width: 684px;
+    /* position: absolute;
+    left: 200px; */
+    width: 784px;
     height: 200px;
-    left: 365px;
-    top: 0;
-    /* bottom: 0px; */
     background: #EEEFF4;
     display: flex;
     align-items: center;
 }
 
+.footer-nav-links {
+    margin-left: 5%;
+}
+
 .footer-nav-links li {
     display: inline-block;
     padding: 0px 30px;
+    
 }
 
 .footer-nav-links a {
@@ -589,12 +616,11 @@ footer {
 }    
 
 .button-link {
-    position: absolute;
+    position: relative;
     width: 252px;
     height: 72px;
-    left: 923px;
+    left: -100px;
     top: 65px;
-    bottom: 60px;
     background: #1B1D23;
     font-family: 'Spartan';
     font-style: normal;
