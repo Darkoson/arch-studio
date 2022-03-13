@@ -2,19 +2,13 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
 }
 
 html, body {
     height: 100%;
-    /* width: 100%; */
     display: block;
 }
 
-/* .page-container {
-    min-height: 100%;
-    padding-bottom: 200px;
-} */
 
 .contact-banner{
     position: absolute;
@@ -46,7 +40,6 @@ html, body {
     min-height: 720px;
     display: flex;
     flex-direction: row;
-    /* position: relative; */
 } 
 
 .image-hero-section {
@@ -57,9 +50,6 @@ html, body {
     justify-content: flex-start;
 }
 .image-hero {
-    /* left: 165px;
-    top: 152px;
-    bottom: auto; */
     background-image: url("../assets/contact/desktop/image-hero.jpg");
     background-position: center;
     background-size: cover;
@@ -75,10 +65,6 @@ html, body {
     width: 60vw;
     height: 720px;
     right: 9%;
-    /* left: 32%; */
-    /* bottom: 0px; */
-    /* top: 25%; */
-    /* background: #FFFFFF;  */
     z-index: 1;
 }
 
@@ -131,9 +117,7 @@ html, body {
 .project-text-bottom {
     position: absolute;
     width: 33vw;
-    /* height: 100px; */
     left: 20%;
-    /* right: 20%; */
     top: 80%;
 }
 
@@ -164,9 +148,6 @@ html, body {
     }
 
     .image-hero {
-        /* left: 165px;
-        top: 152px;
-        bottom: auto; */
         background-image: url("../assets/contact/tablet/image-hero.jpg");
         background-position: center;
         background-size: cover;
@@ -176,12 +157,6 @@ html, body {
         height: 720px;
         z-index: 0;
     }
-
-    /* .image-hero {
-        width: 100%;
-        height: 720px;
-        position: absolute;
-    } */
 
     .contact-header {
         top: 25%;
@@ -202,14 +177,11 @@ html, body {
         left: unset;
         right: 0;
         bottom: 0;
-        /* float: left; */
     }
 
     .project-text-top {
         position: absolute;
         width: 60%;
-        /* height: 21vh;
-        left: 20%; */
         top: 40%;
         right: unset;
         left: 20%;
@@ -219,7 +191,6 @@ html, body {
     .project-text-bottom {
         position: absolute;
         width: 60%;
-        /* height: 100px; */
         left: 20%;
         right: unset;
         top: 70%;
@@ -228,14 +199,11 @@ html, body {
 }
 
 .contact-details-container {
-    /* position: absolute; */
     margin: 0px 9.5em;
     margin-bottom: 9.5em;
     width: 100%;
     max-width: 1110px;
     height: 212px;
-    /* left: 165px; */
-    /* top: 1050px; */
     font-family: 'Spartan';
     font-style: normal;
     color: #1B1D23;
@@ -300,7 +268,6 @@ html, body {
 .contact-office a img {
     margin-left: 20px;
     font-weight: normal;
-    /* padding-top: 20px; */
 }    
 
 @media only screen and (max-width: 1200px) {
@@ -327,8 +294,6 @@ html, body {
         width: 100%;
         margin: 0;
         height: 205px;
-        
-        /* text-align: left; */
     }
 
     .contact-office a {
@@ -337,29 +302,22 @@ html, body {
         top: -50%;
         margin-right: 4.5rem;
     }
+
     .contact-office a img {
         display: none;
     }
 }
 
 .image-map-container {
-    /* position: absolute; */
     width: 80vw;
     height: 631px;
-    /* left: 165px; */
-    /* right: 165px; */
     margin: 9.5em;
     right: unset;
 }
 
 #map {
-    /* background-image: url("../assets/contact/desktop/image-map.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
     width: 80vw;
     height: 631px;
-    /* top: 1450px; */
 }
 
 .dark-blue {
@@ -367,9 +325,7 @@ html, body {
   }
 
 .contact-form-container {
-    /* position: absolute; */
     display: flex;
-    /* top: 2172px; */
     margin-bottom: 9.5em;
     margin-left: 9.5em;
     margin-right: 9.5em;
@@ -402,7 +358,6 @@ html, body {
 .contact-form {
     width: 730px;
     height: 350px;
-    /* position: relative; */
 }
 
 #form {
@@ -414,7 +369,6 @@ html, body {
     width: 100%;
     height: 47px;
     position: relative;
-    /* overflow: hidden; */
     margin: 19px 0px;
 }
 
@@ -455,7 +409,6 @@ html, body {
 
 .form-content {
     position: absolute;
-    /* bottom: 10px; */
     left: 0px;
     transition: all 0.3s ease;
     color: #C8CCD8;
@@ -469,7 +422,6 @@ input::placeholder {
     width: 80px;
     height: 80px;
     left: 89%;
-    /* top: 80%; */
     background: #1B1D23;
     cursor: pointer;
     border: none;
@@ -485,9 +437,7 @@ input::placeholder {
 
 @media only screen and (max-width: 1200px) {
     .contact-form-container {
-        /* position: absolute; */
         display: block;
-        /* top: 2172px; */
         margin: 9.5em;
         width: 80%;
         height: 300px;
@@ -499,7 +449,6 @@ input::placeholder {
         justify-content: flex-start;
         width: 100%;
         height: 100px;
-        /* height: 300px; */
     }
     
     .form-title h2 {
@@ -518,7 +467,6 @@ input::placeholder {
     .contact-form {
         width: 90%;
         height: 356px;
-        /* position: relative; */
     }
 
     #form {
@@ -530,7 +478,6 @@ input::placeholder {
         position: relative;
         left: 90%;
         right: 10%;
-        /* top: 80%; */
     }
 }
  
