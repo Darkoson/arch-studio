@@ -90,7 +90,6 @@ nav {
     margin-top: 152px;
     margin-left: 162px;
     margin-bottom: 28px;
-    background: #1d1c1c;
 }
 
 .img-slider .slide{
@@ -267,12 +266,12 @@ nav {
 }
 
 /*Small Team*/
+
 .smallideas img{
     position: absolute;
     width: 80%;
     left: 165px;
     top: 1835px;
-    
 }
 
 .smallideas .info{
