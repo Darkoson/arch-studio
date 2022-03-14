@@ -350,6 +350,15 @@
 .social-media{
     visibility: hidden;
 }
+nav .mobile-menu svg{
+    visibility: hidden;
+}
+.close-button{
+    visibility: hidden;
+}
+.pop-up{
+    visibility: hidden;
+}
 
 /* chapter 2 styling for the Tablet(768px) */
 
@@ -358,7 +367,9 @@
         width: 46.8em;
         height:  9.5em;
     }
-    
+    nav .mobile-menu svg{
+        visibility: hidden;
+    }
     .logo a img{
         position: absolute;
         left: 6.5em;
@@ -671,10 +682,70 @@
         height: 0.3em;
         border: 1px solid blue;
     }
-    
+    .nav-links .close-button{
+        visibility: hidden;
+    }
+    .pop-up{
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width: 375px) {
+    nav{
+        width: 46.8em;
+        height:  5em;
+    }
+    
+    .logo a img{
+        position: absolute;
+        top: 2em;
+        left: 2em;
+    }
+    nav .mobile-menu svg{
+        visibility: visible;
+        position: absolute;
+        top: 3em;
+        left: 20em;
+    }
+    .pop-links {
+        position: absolute;
+        top: 7.1em;
+        left: 2.5em;
+        width: 20em;
+        height: 12em;
+        background-color: #EEEFF4;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+    }
+    .pop-links li {
+        /* padding-top: 2em; */
+        margin-top: 2em;
+        margin-left: 2em;
+        color: #1B1D23;
+        list-style: none;
+    }
+    
+    .pop-links li a {
+        font-family: 'Spartan';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: #1B1D23;
+        text-decoration: none;
+        list-style: none;
+    }
+    .close-button{
+        visibility: visible;
+        position: absolute;
+        top: 3em;
+        left: 20em;
+    }
+    .nav-links{
+        visibility: hidden;
+    }
+    
+    
     .about-us-banner{
        visibility: hidden;
     }

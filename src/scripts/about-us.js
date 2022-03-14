@@ -49,3 +49,20 @@ $(document).ready(() => {
     })
 
 })
+
+const openMenu = document.querySelector(".mobile-menu");
+const popUp = document.querySelector(".pop-up");
+const closeMenu = document.querySelector(".close-button");
+popUp.style.visibility = "hidden";
+closeMenu.style.visibility = "hidden";
+
+openMenu.addEventListener("click", () => {
+    popUp.style.visibility = "visible";
+    openMenu.style.display = "none";
+    closeMenu.style.visibility = "visible";
+})
+closeMenu.addEventListener("click", () => {
+    popUp.style.visibility = "hidden";
+    closeMenu.style.visibility = "hidden";
+    openMenu.style.display = "block";
+})
