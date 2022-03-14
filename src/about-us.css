@@ -361,11 +361,12 @@
     
     .logo a img{
         position: absolute;
-        left: -4em;
+        left: 6.5em;
     }
     
     .nav-links {
-        margin-left: 6em;
+        position: absolute;
+        left: 10em;
     }
     
     .nav-links li {
@@ -408,7 +409,7 @@
     
 /* ...... 2.1-  Hero section for tablet*/
     .hero-section{
-        margin-top: 0em;
+        margin-top: 9.4em;
         width: 100%;
         height: 41em;
         display: flex;
@@ -628,14 +629,13 @@
     }
     .social-media{
         position: absolute;
-        top: 450%;
+        top: 462%;
         height: 112%;
-        width: 21em;
+        width: 25em;
         visibility: visible;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        border: 1px solid blue;
     }
     .first-column-social{
         height: 20%;
@@ -661,6 +661,15 @@
         width: 23%;
         display: flex;
         justify-content: space-between;
+    }
+
+    footer{
+        border: 1px solid blue;
+    }
+    .footer-logo{
+        width: 7em;
+        height: 0.3em;
+        border: 1px solid blue;
     }
     
 }
