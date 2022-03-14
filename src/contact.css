@@ -36,7 +36,7 @@ html, body {
 
 .upper-section {
     max-width: 80%;
-    margin: 9.5em auto; 
+    margin: 9.5em; 
     height: 720px;
     display: flex;
     flex-direction: row;
