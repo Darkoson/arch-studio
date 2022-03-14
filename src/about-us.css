@@ -674,9 +674,6 @@ nav .mobile-menu svg{
         justify-content: space-between;
     }
 
-    footer{
-        
-    }
     .footer-logo{
         width: 7em;
         height: 0.3em;
@@ -972,7 +969,6 @@ nav .mobile-menu svg{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        border: 1px solid rgb(20, 26, 20);
         position: absolute;
         top: 29em;
     }
@@ -982,7 +978,6 @@ nav .mobile-menu svg{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        border: 1px solid rgb(128, 0, 90);
         position: absolute;
         top: 84em;
     }
