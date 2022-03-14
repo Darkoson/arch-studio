@@ -55,6 +55,13 @@ nav {
     color: #7D828F;
     text-decoration: none;
 }
+.nav-links a:hover{
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #010205;
+}
 
 /*.homebanner{
     width: 100px;
