@@ -675,12 +675,11 @@ nav .mobile-menu svg{
     }
 
     footer{
-        border: 1px solid blue;
+        
     }
     .footer-logo{
         width: 7em;
         height: 0.3em;
-        border: 1px solid blue;
     }
     .nav-links .close-button{
         visibility: hidden;
@@ -953,23 +952,29 @@ nav .mobile-menu svg{
         height: 18rem;
         width: 92%;
     }
-    .social-media{
+    /* .social-media{
         position: absolute;
-        top: 454%;
+        top: -78em;
         height: 80rem;
         width: 55%;
         visibility: visible;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-left: 1.8em;
-    }
+        /* margin-top: 29em; */
+        /* margin-left: 1.8em;
+        border: 1px solid green;
+        display: none;
+    } */ 
     .first-column-social{
         height: 36.5%;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        border: 1px solid rgb(20, 26, 20);
+        position: absolute;
+        top: 29em;
     }
     .second-column-social{
         height: 36.1%;
@@ -977,6 +982,9 @@ nav .mobile-menu svg{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        border: 1px solid rgb(128, 0, 90);
+        position: absolute;
+        top: 84em;
     }
     .left-socials{
         height: 11%;
