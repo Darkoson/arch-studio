@@ -7,19 +7,38 @@
     font-family: Spartan, sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
 /*Navigation*/
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    min-height: 152px;
+    background-color: white;
+    max-width: 1110px;
+    margin: auto;
+    margin-bottom: -150px;
+    padding-left: 40px;
+    /* height: 9.5rem; */
+}
 .logo {
-    position: absolute;
+    /* position: absolute; */
     width: 96.16px;
     height: 40px;
-    left: 164px;
-    top: 56px;
+    /* margin-left: 9.5em; */
+    /* top: 56px; */
 }
 
 .nav-links {
-    position: absolute;
-    left: 24%;
-    top: 70px;
+    /* position: absolute; */
+    margin-left: 5%;
+    /* top: 70px; */
     
 }
 
@@ -64,230 +83,6 @@
 }
 
 
-
-
-/*.slide{
-    background-image: url("../assets/home/desktop/image-hero-paramour.jpg");
-    background-color: rgba(0, 0, 0, 0.445);
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    height: 720px;
-    width: 1110px; 
-    margin: auto 0;
-    margin-left: 165px;
-    margin-right: 165px;
-    margin-top: 152px;
-    margin-bottom: 2819px;
-
-}
-
-.slide_1 h3{
-    font-family: Spartan, sans-serif;
-    font-size: 70px;
-    line-height: 80px;
-    font-weight: bold;
-    letter-spacing: -2px;
-    color: #FFFFFF;
-    padding-left: 190px;
-    padding-top: 180px;
-    padding-bottom: 380px;
-    padding-right: 376px;
-    position: absolute;
-    height: 160px;
-    margin-bottom: 20px;
-    width: 544px;
-
-}
-
-.slide_note p{
-    font-family: Spartan, sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
-    position: absolute;
-    padding-top: 372px;
-    padding-right: 475px;
-    padding-bottom: 291px;
-    padding-left: 190px;
-    color: #FFFFFF;
-    height: 75px;
-    width: 445px;
-    margin-top: 30px;
-    
-}
-
-.profile_note{
-    background-color: #1B1D23;
-    height: 72px;
-    width: 252px;
-    position: absolute;
-    margin-left: 190px;
-    margin-top: 500px;
-   
-
-}
-
-.profile_note:hover{
-    background-color: #7D828F;
-}
-
-
-
-.profile_note a{
-    color:#FFFFFF;
-    font-family: Spartan, sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    height: 72px;
-    width: 252px;
-}
-
-.profile_note img{
-    margin-left: 20px;
-}
-
-.rectangle{
-    background-color: #EEEFF4;
-    height: 80px;
-    width: 320px;
-    left: 85px;
-    top: 782px;
-    position: absolute;
-    display: inline-block;
-    
-}
-
-.rectangle_1{
-    background-color: #1B1D23;
-    height: 80px;
-    width: 80px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-}
-
-.rectangle_1:hover{
-    background-color: #7D828F;
-    cursor: pointer;
-}
-
-.rectangle_1 a{
-    font-family: Spartan, sans-serif;
-    font-size: 15px;
-    color: #FFFFFF;
-    font-weight: bold;
-    position: absolute;
-    height: 25px;
-    width: 19px;
-    left: 30px;
-    right: 31px;
-    top: 27px;
-    bottom: 28px;
-    justify-content: center;
-    display: flex;
-
-}
-
-
-.rectangle_2{
-    background-color: #FFFFFF;
-    height: 80px;
-    width: 80px;
-    position: absolute;
-    left: 80px;
-    
-}
-
-.rectangle_2:hover{
-    background-color: #EEEFF4;
-    cursor: pointer;
-}
-
-.rectangle_2 a{
-    font-family: Spartan, sans-serif;
-    font-size: 15px;
-    color: #7D828F;
-    font-weight: bold;
-    position: absolute;
-    height: 25px;
-    width: 19px;
-    left: 28px;
-    right: 29px;
-    top: 27px;
-    bottom: 28px;
-    justify-content: center;
-    display: flex;
-}
-
-
-.rectangle_3{
-    background-color: #FFFFFF;
-    height: 80px;
-    width: 80px;
-    position: absolute;
-    left: 160px;
-    
-}
-
-.rectangle_3:hover{
-    background-color: #EEEFF4;
-    cursor: pointer;
-}
-
-.rectangle_3 a{
-    font-family: Spartan, sans-serif;
-    font-size: 15px;
-    color: #7D828F;
-    font-weight: bold;
-    position: absolute;
-    height: 25px;
-    width: 19px;
-    left: 30px;
-    right: 31px;
-    top: 27px;
-    bottom: 28px;
-    justify-content: center;
-    display: flex;
-}
-
-.rectangle_4{
-    background-color: #FFFFFF;
-    height: 80px;
-    width: 80px;
-    position: absolute;
-    left: 240px;
-    
-}
-
-.rectangle_4:hover{
-    background-color: #EEEFF4;
-    cursor: pointer;
-}
-
-.rectangle_4 a{
-    font-family: Spartan, sans-serif;
-    font-size: 15px;
-    color: #7D828F;
-    font-weight: bold;
-    position: absolute;
-    height: 25px;
-    width: 19px;
-    left: 30px;
-    right: 31px;
-    top: 27px;
-    bottom: 28px;
-    justify-content: center;
-    display: flex;
-}*/
-
 .img-slider{
     position: absolute;
     width: 1110px;
@@ -295,7 +90,6 @@
     margin-top: 152px;
     margin-left: 162px;
     margin-bottom: 28px;
-    background: #1d1c1c;
 }
 
 .img-slider .slide{
@@ -472,12 +266,12 @@
 }
 
 /*Small Team*/
+
 .smallideas img{
     position: absolute;
     width: 80%;
     left: 165px;
     top: 1835px;
-    
 }
 
 .smallideas .info{
@@ -763,21 +557,26 @@
 
 /*Footer*/
 footer {
-    position: absolute;
+    box-sizing: content-box;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    max-width: 1110px;
+    margin: 200px auto 0px auto;
+    padding-left: 40px;
     /* bottom: 0; */
     display: flex;
 }
 .footer-logo {
-    position: absolute;
+    /* position: absolute; */
     width: 200px;
     height: 200px;
-    left: 165px;
-    top: 0;
     /* bottom: 0px; */
     background: #1B1D23;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 auto;
 }
 
 .footer-logo img {
@@ -787,20 +586,23 @@ footer {
 }
 
 .footer-nav {
-    position: absolute;
-    width: 684px;
+    /* position: absolute;
+    left: 200px; */
+    width: 784px;
     height: 200px;
-    left: 365px;
-    top: 0;
-    /* bottom: 0px; */
     background: #EEEFF4;
     display: flex;
     align-items: center;
 }
 
+.footer-nav-links {
+    margin-left: 5%;
+}
+
 .footer-nav-links li {
     display: inline-block;
     padding: 0px 30px;
+    
 }
 
 .footer-nav-links a {
@@ -813,12 +615,11 @@ footer {
 }    
 
 .button-link {
-    position: absolute;
+    position: relative;
     width: 252px;
     height: 72px;
-    left: 923px;
+    left: -100px;
     top: 65px;
-    bottom: 60px;
     background: #1B1D23;
     font-family: 'Spartan';
     font-style: normal;

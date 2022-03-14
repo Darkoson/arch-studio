@@ -12,16 +12,6 @@ html, body {
 }
 
 
-.heading {
-    /* Group 16 */
-
-  position: absolute;
-  width: 25px;
-  height: 386;
-  left: 64px;
-  top: 0px;
-}
-
 /* PORTFOLIO */
 .portfolio-banner {
   position: absolute;
