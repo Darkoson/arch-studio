@@ -115,7 +115,7 @@ html, body {
   background-repeat: no-repeat;
 }
 
-.Prototype :hover{
+.Prototype:hover{
   opacity: 0.7;
   cursor: pointer;
 }
@@ -142,7 +142,7 @@ html, body {
   background-repeat: no-repeat;
 }
 
-.Edelweiss :hover {
+.Edelweiss:hover {
   opacity: 0.7;
   cursor: pointer;
 }
@@ -179,7 +179,7 @@ html, body {
   background-repeat: no-repeat;
     }
 
-.SXIV :hover {
+.SXIV:hover {
   opacity: 0.7;
   cursor: pointer;
 }
@@ -237,10 +237,10 @@ p {
 @media screen and (max-width: 768px){
   .portfolio-banner {
     position: absolute;
-    top: 170px;
-    left: -150px;
+    top: 39%;
+    left: -18.5%;
     height: 4vh;
-    width: 30vw;
+    width: 50vw;
     transform: rotate(90deg);
   }
   
@@ -248,15 +248,15 @@ p {
     letter-spacing: 15px;
     color: #C8CCD8;
     font-size: 14px;
-    padding-left: 120px;
-    padding-top: 1.5px;
+    padding-left: 151px;
+    padding-top: 4px;
     font-family: Spartan;
     font-weight: 500;
   }
   
   .portfolio-banner hr {
     position: absolute;
-    top: 7px;
+    top: 10px;
     height: 1px;
     width: 7rem;
   }
@@ -285,84 +285,84 @@ p {
 
 .Seraph { 
   grid-area:  Seraph; 
-  background-image: url('../assets/portfolio/tablet/image-seraph.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-seraph.jpg');
   background-size: cover;
   background-repeat: no-repeat;   
   }
 
 .Eebox { 
   grid-area: Eebox;
-  background-image: url('../assets/portfolio/tablet/image-eebox.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-eebox.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Federal { 
   grid-area:Federal; 
-  background-image: url('../assets/portfolio/tablet/image-federal.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-federal.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Del-Sol { 
   grid-area: Del-Sol; 
-  background-image: url('../assets/portfolio/tablet/image-del-sol.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-del-sol.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Prototype { 
   grid-area: Prototype; 
-  background-image: url('../assets/portfolio/tablet/image-prototype.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-prototype.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Tower228 { 
   grid-area: Tower228; 
-  background-image: url('../assets/portfolio/tablet/image-228b.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-228b.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Edelweiss { 
   grid-area: Edelweiss; 
-  background-image: url('../assets/portfolio/tablet/image-edelweiss.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-edelweiss.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Netcry { 
   grid-area: Netcry; 
-  background-image: url('../assets/portfolio/tablet/image-netcry.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-netcry.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Hypers { 
   grid-area: Hypers; 
-  background-image: url('../assets/portfolio/tablet/image-hypers.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-hypers.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .SXIV { 
   grid-area: SXIV; 
-  background-image: url('../assets/portfolio/tablet/image-sxiv.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-sxiv.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Trinity { 
   grid-area: Trinity; 
-  background-image: url('../assets/portfolio/tablet/image-trinity.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-trinity.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Paramour { 
   grid-area: Paramour; 
-  background-image: url('../assets/portfolio/tablet/image-paramour.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-paramour.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
@@ -371,12 +371,13 @@ p {
 /*Mobile Section*/
 @media screen and (max-width: 375px) {
   .portfolio-banner {
-    position: absolute;
-    top: 170px;
-    left: -150px;
+    /*position: absolute;
+    top: 39%;
+    left: -18.5%;
     height: 4vh;
-    width: 30vw;
-    transform: rotate(90deg);
+    width: 50vw;
+    transform: rotate(90deg);*/
+    visibility: hidden;
   }
   
   .portfolio-banner p {
@@ -414,90 +415,90 @@ p {
       "SXIV"
       "Trinity"
       "Paramour";
-  width: /*6em*/100%;
-  height: 30em;
+  width: 20%;
+  height: 10%;
 }
 
 .Seraph { 
   grid-area: Seraph; 
-  background-image: url('../assets/portfolio/mobile/image-seraph.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-seraph.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .Eebox { 
   grid-area: Eebox;
-  background-image: url('../assets/portfolio/mobile/image-eebox.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-eebox.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .Federal { 
   grid-area: Federal; 
-  background-image: url('../assets/portfolio/mobile/image-federal.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-federal.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .Del-Sol {
   grid-area: Del-Sol; 
-  background-image: url('../assets/portfolio/mobile/image-del-sol.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-del-sol.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .Prototype { 
   grid-area: Prototype; 
-  background-image: url('../assets/portfolio/mobile/image-prototype.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-prototype.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .Tower228 { 
   grid-area:Tower228; 
-  background-image: url('../assets/portfolio/mobile/image-228b.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-228b.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .Edelweiss { 
   grid-area: Edelweiss; 
-  background-image: url('../assets/portfolio/mobile/image-edelweiss.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-edelweiss.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .Netcry { 
   grid-area: Netcry; 
-  background-image: url('../assets/portfolio/mobile/image-netcry.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-netcry.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .Hypers { 
   grid-area: Hypers; 
-  background-image: url('../assets/portfolio/mobile/image-hypers.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-hypers.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .SXIV { 
   grid-area: SXIV; 
-  background-image: url('../assets/portfolio/mobile/image-sxiv.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-sxiv.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Trinity { 
   grid-area: Trinity; 
-  background-image: url('../assets/portfolio/mobile/image-trinity.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-trinity.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .Paramour { 
   grid-area: Paramour; 
-  background-image: url('../assets/portfolio/mobile/image-paramour.jpg');
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-paramour.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   }
