@@ -719,7 +719,6 @@ nav .mobile-menu svg{
         z-index: 10;
     }
     .pop-links li {
-        /* padding-top: 2em; */
         margin-top: 2em;
         margin-left: 2em;
         color: #1B1D23;
@@ -906,12 +905,12 @@ nav .mobile-menu svg{
     }
     .leaders-jake-image{
         height: 18rem;
-        width: 100%;
+        width: 92%;
     }
     
     .leaders-Smith-image{
         height: 18rem;
-        width: 100%;
+        width: 92%;
     }
     .leaders-text-top{
         height: 5vh;
@@ -947,16 +946,16 @@ nav .mobile-menu svg{
     }
     .leaders-Jackson-image{
         height: 18rem;
-        width: 100%;
+        width: 92%;
     }
     
     .leaders-Maria-image{
         height: 18rem;
-        width: 100%;
+        width: 92%;
     }
     .social-media{
         position: absolute;
-        top: 480%;
+        top: 454%;
         height: 80rem;
         width: 55%;
         visibility: visible;
@@ -1005,4 +1004,321 @@ nav .mobile-menu svg{
         display: none;
     }
 
+}
+
+@media screen and (max-width: 400px){
+    nav{
+        width: 46.8em;
+        height:  5em;
+    }
+    
+    .logo a img{
+        position: absolute;
+        top: 2em;
+        left: 2em;
+    }
+    nav .mobile-menu svg{
+        visibility: visible;
+        position: absolute;
+        top: 3em;
+        left: 20em;
+    }
+    .pop-links {
+        position: absolute;
+        top: 7.1em;
+        left: 2.5em;
+        width: 25em;
+        height: 12em;
+        background-color: #EEEFF4;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+    }
+    .pop-links li {
+        margin-top: 2em;
+        margin-left: 2em;
+        color: #1B1D23;
+        list-style: none;
+    }
+    
+    .pop-links li a {
+        font-family: 'Spartan';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: #1B1D23;
+        text-decoration: none;
+        list-style: none;
+    }
+    .close-button{
+        visibility: visible;
+        position: absolute;
+        top: 3em;
+        left: 20em;
+    }
+    .nav-links{
+        visibility: hidden;
+    }
+    
+    
+    .about-us-banner{
+       visibility: hidden;
+    }
+    .hero-section{
+        margin-top: 7em;
+        width: 100%;
+        height: 50em;
+    }
+
+    .hero-image{
+        visibility: visible;
+        position: absolute;
+        width: 100%;
+        height: 16em;
+        background-color: #07060670;
+        background-image: url(../assets/about/mobile/image-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+    }
+    .hero-section-about{
+       visibility: hidden;
+    }
+    .hero-section-about h1{
+        visibility: hidden;
+    }
+    .hero-rep-wrap-text{
+        position: absolute;
+        width: 90%;
+        height: 36em;
+        top: 38%;
+        background-color: #FFFFFF;
+        margin-left: -2.3rem;
+    }
+    .hero-rep-wrap-text hr{
+        visibility: hidden;
+    }
+    .hero-rep-wrap-text-top{
+        height: 21vh;
+        width: 100%;
+        margin-right: 2.5em;
+    }
+    .hero-rep-wrap-text-top h2{
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.26rem;
+        line-height: 120%;
+        letter-spacing: -2px;
+        color: #1B1D23;
+        margin-left: 2rem;
+    }
+    .hero-rep-wrap-text-bottom{
+        position: absolute;
+        height: 45%;
+        width: 90%;
+        top: 43%;
+        margin-left: 10%;
+    }
+    .hero-rep-wrap-text-bottom p{
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9em;
+        line-height: 25px;
+        color: #60636D;
+    }
+    .heritage-section{
+        width: 100%;
+        height: 42em;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10em;
+        margin-top: -10em;
+    }
+    .heritage-text hr{
+        width: 4rem;
+        height: 1px;
+        background-color: #C8CCD8;
+        margin-left: 25%;
+    }
+    .heritage-text-top{
+        height: 21vh;
+        width: 170%;
+        font-size: 2rem;
+        line-height: 180%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.6rem;
+        letter-spacing: -2px;
+        color: #1B1D23;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left: 25%;
+    }
+    .heritage-text-bottom{
+        height: 94vh;
+        width: 235%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.8em;
+        line-height: 28px;
+        color: #60636D;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 25%;
+    }
+    
+    .heritage-image{
+       display: none;
+    }
+
+    .leaders-section{
+        width: 100%;
+        height: 120em;
+        margin-left: 0em;
+        margin-bottom: 10em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .leaders-title{
+        height: 21vh;
+        width: 60%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.7rem;
+        line-height: 150%;
+        letter-spacing: -2px;
+        color: #1B1D23;
+        margin-left: 1em;
+    }
+    .leaders-image{
+        height: 108em;
+        width: 92%;
+        position: absolute;
+        top: 119em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .leaders-top-images{
+        width: 100%;
+        height: 50em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+    .leaders-text-image-wrapper{
+        height: 30em;
+        width: 100%;
+    }
+    .leaders-jake-image{
+        height: 18rem;
+        width: 92%;
+    }
+    
+    .leaders-Smith-image{
+        height: 18rem;
+        width: 92%;
+    }
+    .leaders-text-top{
+        height: 3vh;
+        width: 100%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.9rem;
+        line-height: 25px;
+        color: #1B1D23;
+        margin-top: 0.2em;
+    }
+    .leaders-text-bottom{
+        height: 3vh;
+        width: 100%;
+        font-family: Spartan;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.9rem;
+        line-height: 25px;
+        color: #1B1D23;
+        mix-blend-mode: normal;
+        opacity: 0.98;
+    }
+    .leaders-bottom-images{
+        width: 100%;
+        height: 55em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+    .leaders-Jackson-image{
+        height: 20rem;
+        width: 92%;
+    }
+    
+    .leaders-Maria-image{
+        height: 20rem;
+        width: 92%;
+    }
+    .social-media{
+        position: absolute;
+        top: 266%;
+        height: 86em;
+        width: 55%;
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 1.8em;
+    }
+    .first-column-social{
+        height: 33%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .second-column-social{
+        height: 36.1%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .left-socials{
+        height: 11%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .right-socials{
+        height: 11%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hover-jake{
+        display: none;
+    }
+    .hover-smith{
+        display: none;
+    }
+    .hover-jackson{
+        display: none;
+    }
+    .hover-maria{
+        display: none;
+    }
 }
