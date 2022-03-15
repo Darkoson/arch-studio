@@ -7,19 +7,32 @@
     font-family: Spartan, sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
 /*Navigation*/
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    min-height: 152px;
+    background-color: white;
+    max-width: 1110px;
+    margin: auto;
+    margin-bottom: -150px;
+    padding-left: 40px;
+}
 .logo {
-    position: absolute;
     width: 96.16px;
     height: 40px;
-    left: 164px;
-    top: 56px;
 }
 
 .nav-links {
-    position: absolute;
-    left: 24%;
-    top: 70px;
+    margin-left: 5%;
     
 }
 
@@ -36,14 +49,13 @@
     color: #7D828F;
     text-decoration: none;
 }
-
-/*.homebanner{
-    width: 100px;
-    height: 104px;
-    border: 1px solid #1B1D23;
-    position: absolute;
-    
-}*/
+.nav-links a:hover{
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #010205;
+}
 
 .homebanner hr{
     width: 1px;
@@ -78,22 +90,15 @@
     position: absolute;
     width: 100%;
     clip-path: circle(0% at 0 50%);
-    
-    
 }
 
 .img-slider .slide.active{
     clip-path: circle(150% at 0 50%);
-    
-    
 }
 
 .img-slider .slide img{
     z-index: 1;
     width: 100%;
-
-    
-    
 }
 
 .img-slider .slide .info{
@@ -102,8 +107,7 @@
     left: 20%;
     background: rgba(0, 0, 0, 0.01);
     width: 75%;
-    height: 75%;
-    
+    height: 75%; 
 }
 
 .img-slider .slide .info h2{
@@ -538,21 +542,23 @@
 
 /*Footer*/
 footer {
-    position: absolute;
-    /* bottom: 0; */
+    box-sizing: content-box;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    max-width: 1110px;
+    margin: 200px auto 0px auto;
+    padding-left: 40px;
     display: flex;
-    /*top: 3491px;*/
 }
 .footer-logo {
-    position: absolute;
     width: 200px;
     height: 200px;
-    left: 165px;
-    /* bottom: 0px; */
     background: #1B1D23;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 auto;
 }
 
 .footer-logo img {
@@ -562,20 +568,21 @@ footer {
 }
 
 .footer-nav {
-    position: absolute;
-    width: 684px;
+    width: 784px;
     height: 200px;
-    left: 365px;
-    top: 0;
-    /* bottom: 0px; */
     background: #EEEFF4;
     display: flex;
     align-items: center;
 }
 
+.footer-nav-links {
+    margin-left: 5%;
+}
+
 .footer-nav-links li {
     display: inline-block;
     padding: 0px 30px;
+    
 }
 
 .footer-nav-links a {
@@ -588,12 +595,11 @@ footer {
 }    
 
 .button-link {
-    position: absolute;
+    position: relative;
     width: 252px;
     height: 72px;
-    left: 923px;
+    left: -100px;
     top: 65px;
-    bottom: 60px;
     background: #1B1D23;
     font-family: 'Spartan';
     font-style: normal;
@@ -615,199 +621,62 @@ footer {
     background-color: #7D828F
 }
 
-
-/*@media(max-width: 768px){
-    .logo{
-        width: 96.16px;
-        height: 40px;
-        left: 150px;
-        top: 56px;
+@media only screen and (max-width: 768px) {
+    footer {
+        height: 383px;
+        width: 100%;
+        margin: 200px 0px 0px 0px;
+        padding-left: 0px;
+        display: block;
+        background: #EEEFF4;
     }
 
-    .nav-links{
-        width: 400px;
-        height: 25px;
-        left: 272px;
-    }
-
-    .homebanner p{
-        width: 98px;
-        height: 25px;
-        left: 39px;
-    }
-
-    .homebanner{
-        width: 1px;
-        height: 104px;
-        left: 13px;
-    }
-
-    .slide{
-        width: 573px;
-        height: 720px;
-        top: -20px;
-        left: -10px;
-    }
-
-    .slide_1 h3{
-        width: 457px;
-        height: 160px;
-        left: -75px;
-        top: -10px;
-    }
-
-    .slide_note{
-        width: 457px;
-        height: 75px;
-    }
-
-    .slide_note p{
-        width: 475px;
-        height: 75px;
-        left: -75px;
-    }
-
-    .profile_note{
-        width: 252px;
-        height: 72px;
-        left: -75px;
-        top: 10px;
-    }
-
-    .rectangle{
-        visibility: hidden;
-
-    }
-
-    .welcome_1 h1{
-        width: 581px;
-        height: 200px;
-        font-size: 120px;
-        top: 850px;
-    }
-
-    .welcome{
-        visibility: hidden;
-    }
-
-    .welcome_note{
-        width: 572px;
-        height: 275px;
-        
-    }
-
-    .welcome_note h3{
-        width: 446px;
-        height: 112px;
-        left: 160px;
-        top: 1100px;
-    }
-
-    .welcome_statement{
-        width: 572px;
-        height: 275px;
-        left: 160px;
-        top: 1300px;
-    }
-
-    .welcome_statement p{
-        left: 160px;
-        font-size: 15px;
-        
-    }
-
-    .smallteam{
-        width: 563px;
-        height: 560px;
-        top: 1680px;
-    }
-
-    .smallteam_1{
-        width: 445px;
-        height: 152px;
-
-    }
-
-    .smallteam_1 h3{
-        font-size: 56px;
-        left: 97px;
-    }
-
-    .aboutus_note{
-        width: 187px;
-        height: 72px;
-        left: -90px;
-        top: 0px;
-    }
-
-    .featured_1{
-        width: 263px;
-        height: 56px;
-        font-size: 56px;
-        
-    }
-
-    .featured_1 h2{
-        font-size: 56px;
-        top: 2350px;
-    }
-
-    .featured_note{
-        width: 169px;
-        height: 72px;
-        left: 570px;
-        top: 2380px;
-    }
-
-    .images{
-        width: 573px;
-    }
-
-    .projectdelsol{
-        width: 573px;
-        height: 240px;
-        top: -200px
-    }
-
-    .projectdelsol p{
-        width: 84px;
-        height: 200px;
-        font-size: 200px;
-        left: 400px;
-    }
-
-    .BTower{
-        top: 70px;
-        height: 240px;
-        width: 573px;
-        left: 0px;
-        background-repeat: no-repeat;
-
-    }
-
-    .leProtoype{
-        width: 573px;
-        height: 200px;
-        left: 0px;
-        top: 340px;
-    }
-
-    .footer-logo{
+    .footer-logo {
+        position: relative;
         width: 120px;
         height: 120px;
-        left: 0px;
+        margin: 0 auto;
+        top: -60px;
     }
 
-    .footer-nav{
-        width: 560px;
-        height: 120px;
-        left: 120px;
+    .footer-logo img {
+        width: 58px;
+        height: 24px;
+        
     }
 
-    .button-link{
+    .footer-nav {
+        position: relative;
+        width: 80vw;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+        top: -60px;
+    }
+
+    .footer-nav-links {
+        width: 100%;
+    }
+
+    .footer-nav-links li {
+        display: block;
+        position: relative;
+        padding: 30px 0px;
+        margin: auto;
+        text-align: center;
+        left: unset;
+        right: 25px;
+        float: inherit;
+        
+    }
+
+    .button-link {
+        position: inherit;
         width: 252px;
         height: 72px;
-        left: 560px;
-        top: 3520px;
+        left: 0px;
+        top: -60px;
+        margin: 0 auto;
+        
     }
 }
