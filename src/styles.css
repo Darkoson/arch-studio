@@ -99,7 +99,6 @@ nav {
 .img-slider .slide img{
     z-index: 1;
     width: 100%;
-    border-radius: 5px;
 }
 
 .img-slider .slide .info{
@@ -341,7 +340,7 @@ nav {
 
 
 .featured a:hover{
-    background-color: #7D828F;
+    background: #7D828F;
 }
 
 
