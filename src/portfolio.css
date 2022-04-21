@@ -1,0 +1,956 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Spartan;
+  /* box-sizing: border-box; */
+}
+
+
+
+ /* PORTFOLIO*/
+ /* @media screen and (max-width: 1250px) {  */
+   
+.portfolio-banner {
+  position: absolute;
+  top: 170px;
+  left: -150px;
+  height: 4vh;
+  width: 30vw;
+  transform: rotate(90deg);
+}
+
+.portfolio-banner p {
+  letter-spacing: 15px;
+  color: #C8CCD8;
+  font-size: 14px;
+  padding-left: 120px;
+  padding-top: 1.5px;
+  font-family: Spartan;
+  font-weight: 500;
+}
+
+.portfolio-banner hr {
+  position: absolute;
+  top: 7px;
+  height: 1px;
+  width: 7rem;
+}
+
+  
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 25px 25px; 
+  grid-template-areas: 
+  "Seraph Eebox Federal"
+  "Del-Sol Prototype Tower228"
+  "Edelweiss Netcry Hypers"
+  "SXIV Trinity Paramour";
+  width: 65em; 
+  height: 145em;
+  margin-top: 9em;
+  margin-left: 9.8em;
+  /* margin-bottom: 8em;  */
+}
+ 
+.Seraph {
+  grid-area: Seraph; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-seraph.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.Seraph:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.Eebox { 
+  grid-area: Eebox;  
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-eebox.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Eebox:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+  cursor: pointer;
+}
+
+
+.Federal { 
+  grid-area: Federal;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-federal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Federal:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+  cursor: pointer;
+
+}
+
+.Del-Sol { 
+  grid-area: Del-Sol;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-del-sol.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Del-Sol:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+  cursor: pointer;
+}
+
+.Prototype { 
+  grid-area: Prototype;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-prototype.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Prototype:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+.Tower228 { 
+  grid-area: Tower228; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-228b.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Tower228:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+  cursor: pointer;
+  width: 350px;
+  height: 560px;
+}
+
+
+.Edelweiss { 
+  grid-area: Edelweiss ;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-edelweiss.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Edelweiss:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+.Netcry { 
+  grid-area:Netcry;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-netcry.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Netcry:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.Hypers { 
+  grid-area: Hypers;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-hypers.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Hypers:hover { 
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+.SXIV { 
+  grid-area: SXIV ;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-sxiv.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+    }
+
+.SXIV:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.Trinity { 
+  grid-area: Trinity;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-trinity.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Trinity:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+.Paramour { 
+  grid-area: Paramour;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/desktop/image-paramour.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Paramour:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+.text {
+  z-index: 10;
+  width: 100%; 
+  height: 40%;
+  margin-top: 96.5%;
+  color: aliceblue;
+}   
+
+h3 {
+   margin-top: 490px;
+   margin-left: 40px; 
+   color: #FFFFFF;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+p {
+    margin-left: 40px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+}  
+
+
+@media only screen and (max-width: 1200px) {
+  .portfolio-banner {
+    position: absolute;
+    top: 160px;
+    left: -160px;
+    height: 4vh;
+    width: 30vw;
+    transform: rotate(90deg);
+  }
+  
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 25px 25px; 
+  width: 65em; 
+  height: 145em;
+  margin-left: 8.8em;
+  /* margin-bottom: 8em; */  
+}
+
+}
+
+@media only screen and (max-width: 1250px) {
+
+  .portfolio-banner {
+    position: absolute;
+    top: 160px;
+    left: -160px;
+    height: 4vh;
+    width: 30vw;
+    transform: rotate(90deg);
+  }
+  
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 25px 25px; 
+  position: relative;
+  width: 65em; 
+  height: 145em;
+  right: 55px;
+  /* margin-top: 9em; */
+  /* margin-left: 3.8em; */
+  /* margin-right: 9em; */
+  /* margin-bottom: 8em; */  
+}
+  
+
+
+}
+
+/*Tablet Section*/
+ @media screen and (max-width: 768px){
+
+  .portfolio-banner {
+    position: absolute;
+    top: 18%;
+    left: -23.5%;
+    height: 4vh;
+    width: 50vw;
+    transform: rotate(90deg);
+  }
+  
+ 
+.container {  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Seraph"
+    "Eebox"
+    "Federal"
+    "Del-Sol"
+    "Prototype"
+    "Tower228"
+    "Edelweiss"
+    "Netcry"
+    "Hypers"
+    "SXIV"
+    "Trinity"
+    "Paramour"; 
+    /* width: 768px;
+    height: 3600px; */
+    width: 650px;
+    height: 3200px;
+    /* position: relative;
+    right: 62px;
+    margin-left: 155px; */
+}
+
+.Seraph { 
+  grid-area:  Seraph; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-seraph.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em;
+  height: 15em;   
+  }
+
+.Eebox { 
+  grid-area: Eebox;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-eebox.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.Federal { 
+  grid-area:Federal; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-federal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.Del-Sol { 
+  grid-area: Del-Sol; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-del-sol.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.Prototype { 
+  grid-area: Prototype; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-prototype.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.Tower228 { 
+  grid-area: Tower228; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-228b.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.Edelweiss { 
+  grid-area: Edelweiss; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-edelweiss.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.Netcry { 
+  grid-area: Netcry; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-netcry.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.Hypers { 
+  grid-area: Hypers; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-hypers.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.SXIV { 
+  grid-area: SXIV; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-sxiv.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.Trinity { 
+  grid-area: Trinity; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-trinity.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+.Paramour { 
+  grid-area: Paramour; 
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/tablet/image-paramour.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35.8em; 
+  height: 15em;  
+  }
+
+  .text {
+    position: absolute;
+    z-index: 10;
+    width: 100%; 
+    height: 10%;
+    margin-top: 19.5%;
+    color: aliceblue;
+    padding-left:5px;
+    padding-bottom: 10px;
+  }   
+  
+  h3 {
+    margin-top:  5px;
+    margin-left: 10px; 
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 9px;
+    padding-left:10px;
+  }
+  
+  p {
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left:10px;
+   }
+} 
+
+
+
+/*Mobile Section*/
+/* @media screen and (max-width: 375px) { 
+  .portfolio-banner {
+    visibility: hidden;
+  }
+
+.container { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap:20px 0px;
+  grid-auto-flow: row;
+  width: 325px;
+  height: 3200px;
+  position: relative;
+  right: 100px;
+  margin-left: -500px;
+}
+
+
+.Seraph { 
+  grid-area: 1 / 1 / 3 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-seraph.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Eebox { grid-area: 2 / 1 / 3 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-eebox.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Federal { grid-area: 3 / 1 / 4 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-federal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Del-Sol { grid-area: 4 / 1 / 5 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-del-sol.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Prototype { grid-area: 5 / 1 / 6 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-prototype.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Tower228 { grid-area: 6 / 1 / 7 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-228b.jpg');
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.Edelweiss { grid-area: 7 / 1 / 8 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-edelweiss.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.Netcry { grid-area: 8 / 1 / 9 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-netcry.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Hypers { grid-area: 9 / 1 / 10 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-hypers.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.SXIV { grid-area: 10 / 1 / 11 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-sxiv.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Trinity { grid-area: 11 / 1 / 12 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-trinity.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Paramour { grid-area: 12 / 1 / 13 / 2; 
+  width: 19.4em; 
+  height: 15em;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-paramour.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text {
+  position: absolute;
+  z-index: 5;
+  width: 100%; 
+  height: 100%; */
+  /* margin-top: 43.5%; */
+  /* color: aliceblue; */
+  /* padding-left:5px;
+  padding-bottom: 10px; */
+/*}   
+
+h3 {
+  margin-top:  5px;
+  margin-left: 10px; 
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 9px;
+  padding-left:5px;
+}
+
+p {
+  margin-left: 10px;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 15px;
+  padding-left:5px;
+ }
+}
+
+
+
+/* @media screen and (max-width: 400px) {
+  .portfolio-banner {
+    visibility: hidden;
+  }
+
+  
+  .container { 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap:20px 0px;
+    grid-auto-flow: row;
+    width: 320px;
+    height: 3000px; 
+    position: relative;
+    right: 100px;
+  /* margin: 20px auto; */
+  /*}
+  
+  
+  .Seraph { 
+    grid-area: 1 / 1 / 3 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-seraph.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .Eebox { grid-area: 2 / 1 / 3 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-eebox.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .Federal { grid-area: 3 / 1 / 4 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-federal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .Del-Sol { grid-area: 4 / 1 / 5 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-del-sol.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .Prototype { grid-area: 5 / 1 / 6 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-prototype.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .Tower228 { grid-area: 6 / 1 / 7 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-228b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+  }
+  
+  .Edelweiss { grid-area: 7 / 1 / 8 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-edelweiss.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .Netcry { grid-area: 8 / 1 / 9 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-netcry.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .Hypers { grid-area: 9 / 1 / 10 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-hypers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .SXIV { grid-area: 10 / 1 / 11 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-sxiv.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .Trinity { grid-area: 11 / 1 / 12 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-trinity.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .Paramour { grid-area: 12 / 1 / 13 / 2; 
+    width: 19.4em; 
+    height: 15em;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-paramour.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .text {
+    position: absolute;
+    z-index: 10;
+    width: 100%; 
+    height: 10%;
+    margin-top: 43.5%;
+    color: aliceblue;
+    padding-left:5px;
+    padding-bottom: 10px;
+  }   
+  
+  h3 {
+    margin-top:  5px;
+    margin-left: 10px; 
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 9px;
+    padding-left:5px;
+  }
+  
+  p {
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left:5px;
+   }
+  } */
+
+  @media screen and (max-width: 640px) {
+    .portfolio-banner {
+      visibility: hidden;
+    }
+
+  
+    
+    .container { 
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+      gap: 20px;
+      grid-auto-flow: row;
+      /* width: 320px; */
+      width: 80%;
+      height: 3200px;
+      position: relative;
+      right: 83px;
+     
+    }
+    
+    
+    .Seraph { 
+      grid-area: 1 / 1 / 3 / 2; 
+      width: 19.4em;
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-seraph.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .Eebox { grid-area: 2 / 1 / 3 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-eebox.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .Federal { grid-area: 3 / 1 / 4 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-federal.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .Del-Sol { grid-area: 4 / 1 / 5 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-del-sol.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .Prototype { grid-area: 5 / 1 / 6 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-prototype.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .Tower228 { grid-area: 6 / 1 / 7 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-228b.jpg');
+      background-size: cover;
+      background-repeat: no-repeat
+    }
+    
+    .Edelweiss { grid-area: 7 / 1 / 8 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-edelweiss.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    
+    .Netcry { grid-area: 8 / 1 / 9 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-netcry.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .Hypers { grid-area: 9 / 1 / 10 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-hypers.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .SXIV { grid-area: 10 / 1 / 11 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-sxiv.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .Trinity { grid-area: 11 / 1 / 12 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-trinity.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .Paramour { grid-area: 12 / 1 / 13 / 2; 
+      width: 19.4em; 
+      height: 15em;
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.0001) 60%, rgba(0,0,0, 0.499044)), url('../assets/portfolio/mobile/image-paramour.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .text {
+      position: absolute;
+      z-index: 10;
+      width: 100%; 
+      height: 10%;
+      margin-top: 37.5%;
+      color: aliceblue;
+      padding-left:5px;
+      padding-bottom: 10px;
+    }   
+    
+    h3 {
+      margin-top:  5px;
+      margin-left: 10px; 
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size: 18px;
+      padding-bottom: 9px;
+      padding-left:5px;
+    }
+    
+    p {
+      margin-left: 10px;
+      color: #FFFFFF;
+      font-weight: 300;
+      font-size: 15px;
+      padding-left:5px;
+     }
+    }
+
+    
+   /* @media screen and (max-width: 375px) {
+    .portfolio-banner {
+      visibility: hidden;
+    }
+
+  
+    
+    .container { 
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+      gap: 20px;
+      grid-auto-flow: row;
+      width: 300px;
+      height: 3200px;
+      margin-left: 115px;
+      position: relative;
+      right: 150px; 
+    }
+    
+   
+    
+    .text {
+      position: absolute;
+      z-index: 10;
+      width: 100%; 
+      height: 10%;
+      margin-top: 37.5%;
+      color: aliceblue;
+      padding-left:5px;
+      padding-bottom: 10px;
+    }     
+  }   */
+
+ 
